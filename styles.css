@@ -1,0 +1,104 @@
+body {
+    background-color: #111;
+    color: #fffcd8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+}
+
+h1 {
+    color: #fffcd8;
+}
+
+/* #searchInput {
+    margin: 20px;
+} */
+
+input[type="search"] {
+    margin: 20px;
+    height: 25px;
+    /* Set the height of the search input */
+    border-radius: 10px;
+    /* Apply round corner border */
+    padding: 15px;
+    /* Add padding for better appearance */
+    font-size: x-large;
+}
+
+select[name="runes"] {
+    /* margin: 20px; */
+    /* height: 25px; */
+    /* Set the height of the search input */
+    border-radius: 10px;
+    /* Apply round corner border */
+    /* padding: 15px; */
+    /* Add padding for better appearance */
+    font-size: x-large;
+}
+
+button {
+    border-radius: 10px;
+    font-size: x-large;
+    margin: 30px;
+}
+
+label[for="searchInput"] {
+    padding: 15px;
+    font-size: x-large;
+}
+
+label[for="runes"] {
+    padding: 15px;
+    font-size: x-large;
+}
+
+.rune {
+    padding-left: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #669900;
+    min-width: 180px;
+    max-width: 150px;  
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    text-justify: center;
+    height: 35px;
+}
+
+/* tr {
+    min-height: 65px;
+} */
+
+tr:nth-child(even) {
+    background-color: #222;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #669900;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #669900;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #669900;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #669900;
+}
