@@ -62,7 +62,7 @@ label[for="runes"] {
 table,
 th,
 td {
-    border: 1px solid #669900;
+    border: 1px solid #fffcd8;
     min-width: 180px;
     max-width: 150px;  
 }

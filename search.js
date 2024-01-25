@@ -1,13 +1,16 @@
 
 function styleSearch (o) {
-  o.style.color = "#AAFF00";
+  // o.style.color = "#AAFF00";
+  o.style.color = "#111";
   o.style.fontWeight = "bold";
   o.style.textTransform = "uppercase";
+  o.style.background = "#fffcd8";
 }
 function clearStyle(o) {
   o.style.color = "";
   o.style.fontWeight = "normal";
   o.style.textTransform = "none";
+  o.style.background = "";
 }
 
 let dropdown = document.getElementById("runes");
