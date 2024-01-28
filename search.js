@@ -163,9 +163,9 @@ async function createCardContent(cellObject) {
           <li>${Line3}</li>
         </ul>
       </div>  
-      <div class="card-image">
+      <!--<div class="card-image">
         ${imageContent}
-      </div>
+      </div>-->
     </div>
   `;
 }

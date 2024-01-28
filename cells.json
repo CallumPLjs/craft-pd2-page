@@ -173,7 +173,7 @@
         "Line1": "+(5-10)% Faster Cast Rate", 
         "Line2": "+(1-3) Mana Per Kill", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/casgloves.png"
+        "imageLink" : "./images/popups/casglove.png"
     },
     "cashelm": { 
         "title" : "NEF + P.Amethyst",

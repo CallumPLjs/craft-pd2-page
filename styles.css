@@ -119,7 +119,7 @@ tr:nth-child(even) {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 550px;
+    width: 250px;
     display: flex;
     border-radius: 8px;
     padding: 5px;
@@ -137,9 +137,10 @@ tr:nth-child(even) {
     margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.popup-list ul {
+    /* list-style-type: none; */
+    list-style-type: decimal;
+    padding: 15px;
 }
 
 li {
