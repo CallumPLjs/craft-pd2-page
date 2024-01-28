@@ -148,7 +148,7 @@ async function createCardContent(cellObject) {
   await Promise.resolve(cellObject);
   const { title, titleColor, Line1, Line2, Line3, imageLink } = cellObject;
 
-  const imageContent = imageLink ? `<img src="${imageLink}" alt="Blood Amulet" style="width:320px;height:120px;" class="popupImage">` : '';
+  const imageContent = imageLink ? `<img src="${imageLink}" alt="" style="width:320px;height:120px;" class="popupImage">` : '';
 
   // console.log(cellObject);
 

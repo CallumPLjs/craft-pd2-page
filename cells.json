@@ -5,7 +5,7 @@
         "Line1": "10% Faster Run/Walk", 
         "Line2": "+(3-6) Life After Each Kill", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blamu.png"
+        "imageLink" : "images/popups/blamu.png"
     },
     "blbelt": { 
         "title" : "TAL + P.Ruby",
