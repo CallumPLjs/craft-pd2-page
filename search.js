@@ -59,7 +59,6 @@ document.getElementById("searchInput").addEventListener("input", function() {
   // input = document.getElementById("searchInput");
   let userInput = input.value.replace(/[^\w\s]/gi, '');
   filter = userInput.toUpperCase();
-  console.log(filter);
   tr = table.getElementsByTagName("tr");
   document.getElementById("runes").value = "";
   
@@ -70,7 +69,6 @@ document.getElementById("searchInput").addEventListener("input", function() {
       if (td[j]) {
         txtValue = td[j].textContent || td[j].innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          console.log(txtValue.toUpperCase().indexOf(filter));
           styleSearch(td[j]);
           found = true;
         } else {
@@ -139,7 +137,6 @@ async function getCellObject(cellId) {
     // Replace 'your_data.json' with the path to your JSON file
     const response = await fetch('cells.json');
     const jsonData = await response.json();
-    console.log(jsonData[cellId]);    
     return jsonData[cellId];
   } catch (error) {
     console.error('Error fetching JSON data:', error);
@@ -176,9 +173,7 @@ async function createCardContent(cellObject) {
 
 async function handleCellHover(cellId, x, y) {
   const cellObject = await getCellObject(cellId);
-  // console.log(cellObject);
   const cardContent = await createCardContent(cellObject);
-  console.log(cardContent);
   displayHoverCard(x, y, cardContent);
 }
 
