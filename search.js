@@ -28,7 +28,7 @@ dropdown.addEventListener("change", function() {
   for (let i = 1; i < tr.length; i++) {
     let found = false; // Initialize found flag for each row
     td = tr[i].getElementsByTagName("td");
-    for (let j = 1; j < td.length; j++) {
+    for (let j = 1; j < td.length-1; j++) {
       if (td[j]) {
         txtValue = td[j].textContent || td[j].innerText;
         // Compare the content of the cell with the selected value
@@ -64,7 +64,7 @@ document.getElementById("searchInput").addEventListener("input", function() {
   for (let i = 1; i < tr.length; i++) {
     found = false; // Initialize found flag for each row
     td = tr[i].getElementsByTagName("td");
-    for (let j = 1; j < td.length; j++) {
+    for (let j = 1; j < td.length-1; j++) {
       if (td[j]) {
         txtValue = td[j].textContent || td[j].innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -97,7 +97,7 @@ button.addEventListener("click", function() {
   tr = table.getElementsByTagName("tr");
   for (let i = 1; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td");
-    for (let j = 1; j < td.length; j++) {
+    for (let j = 1; j < td.length-1; j++) {
       clearStyle(td[j]);
     }
     tr[i].style.display = ""; // If a match is found in any cell, display the 
