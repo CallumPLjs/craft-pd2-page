@@ -1,434 +1,488 @@
 {
     "blamu": { 
         "title" : "AMN + P.Ruby",
-        "titleColor" : "red",  
+        "titleColor" : "red",
+        "subtitle": "Amulet",  
         "Line1": "10% Faster Run/Walk", 
         "Line2": "+(3-6) Life After Each Kill", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "images/popups/blamu.png"
+        "imageLink" : "images/popups/blamu.PNG"
     },
     "blbelt": { 
         "title" : "TAL + P.Ruby",
-        "titleColor" : "red",  
+        "titleColor" : "red", 
+        "subtitle": "Belt", 
         "Line1": "Open Wounds (10-20)%", 
         "Line2": "+(3-6)% Life Stolen Per Hit", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blbelt.png"
+        "imageLink" : "./images/popups/blbelt.PNG"
     },
     "blboot": { 
         "title" : "ETH + P.Ruby",
         "titleColor" : "red",  
+        "subtitle": "Boots",
         "Line1": "Replenish Life +(15-30)", 
         "Line2": "+(2-4)% Life Stolen Per Hit", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blboot.png"
+        "imageLink" : "./images/popups/blboot.PNG"
     },
     "blche": { 
         "title" : "THUL + P.Ruby",
-        "titleColor" : "red",  
+        "titleColor" : "red",
+        "subtitle": "Armor",  
         "Line1": "+(3-6) Life After Each Kill", 
         "Line2": "+(3-6)% Life Stolen Per Hit", 
         "Line3": "+(20-40) To Life",
-        "imageLink" : "./images/popups/blche.png"
+        "imageLink" : "./images/popups/blche.PNG"
     },
     "blglov": { 
         "title" : "NEF + P.Ruby",
-        "titleColor" : "red",  
+        "titleColor" : "red",
+        "subtitle": "Gloves",  
         "Line1": "(5-10)% Crushing Blow", 
         "Line2": "+(2-4)% Life Stolen Per Hit", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blglov.png"
+        "imageLink" : "./images/popups/blglov.PNG"
     },
     "blhelm": { 
         "title" : "RAL + P.Ruby",
-        "titleColor" : "red",  
+        "titleColor" : "red",
+        "subtitle": "Helmet",  
         "Line1": "(10-20)% Crushing Blow", 
         "Line2": "+(2-4)% Life Stolen Per Hit", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blhelm.png"
+        "imageLink" : "./images/popups/blhelm.PNG"
     },
     "blring": { 
         "title" : "SOL + P.Ruby",
-        "titleColor" : "red",  
+        "titleColor" : "red",
+        "subtitle": "Ring",  
         "Line1": "(5-10)% To Strength", 
         "Line2": "+(1-3)% Life Stolen Per Hit", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blring.png"
+        "imageLink" : "./images/popups/blring.PNG"
     },
     "blshie": { 
         "title" : "ITH + P.Ruby",
-        "titleColor" : "red",  
+        "titleColor" : "red",
+        "subtitle": "Shield",  
         "Line1": "(10-20)% Increased Chance Of Blocking", 
         "Line2": "+(3-6)% Life Stolen Per Hit", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blshie.png"
+        "imageLink" : "./images/popups/blshie.PNG"
     },
     "blwep": { 
         "title" : "ORT + P.Ruby",
         "titleColor" : "red",  
+        "subtitle": "Weapon",
         "Line1": "(50-80)% Enhanced Damage", 
         "Line2": "+(2-4)% Life Stolen Per Hit", 
         "Line3": "+(10-20) To Life",
-        "imageLink" : "./images/popups/blwep.png"
+        "imageLink" : "./images/popups/blwep.PNG"
     },
     "bouamu": { 
         "title" : "KO + P.Topaz",
-        "titleColor" : "gold",  
+        "titleColor" : "gold", 
+        "subtitle": "Amulet", 
         "Line1": "+(10-20) to Vitality", 
         "Line2": "(20-30)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/bouamu.png"
+        "imageLink" : "./images/popups/bouamu.PNG"
     },
     "boubelt": { 
         "title" : "EL + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Belt",
         "Line1": "+(25-50)% Enhanced Defence", 
         "Line2": "(20-30)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/boubelt.png"
+        "imageLink" : "./images/popups/boubelt.PNG"
     },
     "bouboot": { 
         "title" : "IO + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Boots",
         "Line1": "+(25-50)% Enhanced Defence", 
         "Line2": "(15-25)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/bouboot.png"
+        "imageLink" : "./images/popups/bouboot.PNG"
     },
     "bouches": { 
         "title" : "ELD + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Armor",
         "Line1": "+(25-50)% Enhanced Defence", 
         "Line2": "(20-30)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/bouches.png"
+        "imageLink" : "./images/popups/bouches.PNG"
     },
     "bouglov": { 
         "title" : "HEL + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Gloves",
         "Line1": "+(25-50)% Enhanced Defence", 
         "Line2": "(15-25)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/bouglov.png"
+        "imageLink" : "./images/popups/bouglov.PNG"
     },
     "bouhelm": { 
         "title" : "TIR + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Helmet",
         "Line1": "+(25-50)% Enhanced Defence", 
         "Line2": "(20-30)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/bouhelm.png"
+        "imageLink" : "./images/popups/bouhelm.PNG"
     },
     "bouring": { 
         "title" : "LUM + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Ring",
         "Line1": "+(5-10) to Vitality", 
         "Line2": "(10-15)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/bouring.png"
+        "imageLink" : "./images/popups/bouring.PNG"
     },
     "boushie": { 
         "title" : "DOL + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Shield",
         "Line1": "+(10-20)% Increased Chance of Blocking", 
         "Line2": "(20-30)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/boushie.png"
+        "imageLink" : "./images/popups/boushie.PNG"
     },
     "bouwep": { 
         "title" : "SHAEL + P.Topaz",
         "titleColor" : "gold",  
+        "subtitle": "Weapon",
         "Line1": "+(50-80)% Enhanced Damage", 
         "Line2": "(20-30)% Better Chance of Getting Magic Items", 
         "Line3": "+(1-3) To Light Radius",
-        "imageLink" : "./images/popups/bouwep.png"
+        "imageLink" : "./images/popups/bouwep.PNG"
     },
     "casbelt": { 
         "title" : "ITH + P.Amethyst",
-        "titleColor" : "rgb(235, 30, 235)",  
+        "titleColor" : "rgb(235, 30, 235)", 
+        "subtitle": "Belt", 
         "Line1": "+10% Faster Cast Rate", 
         "Line2": "Regenerate Mana (4-10)%", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/casbelt.png"
+        "imageLink" : "./images/popups/casbelt.PNG"
     },
     "casboot": { 
         "title" : "THUL + P.Amethyst",
         "titleColor" : "rgb(235, 30, 235)",  
+        "subtitle": "Boots",
         "Line1": "Increase Maximum Mana (5-10)", 
         "Line2": "Regenerate Mana (4-10)%", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/casboot.png"
+        "imageLink" : "./images/popups/casboot.PNG"
     },
     "casches": { 
         "title" : "TAL + P.Amethyst",
         "titleColor" : "rgb(235, 30, 235)",  
+        "subtitle": "Armor",
         "Line1": "+(5-10)% Faster Cast Rate", 
         "Line2": "+(2-6) Mana Per Kill", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/casches.png"
+        "imageLink" : "./images/popups/casches.PNG"
     },
     "casglove": { 
         "title" : "ORT + P.Amethyst",
         "titleColor" : "rgb(235, 30, 235)",  
+        "subtitle": "Gloves",
         "Line1": "+(5-10)% Faster Cast Rate", 
         "Line2": "+(1-3) Mana Per Kill", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/casglove.png"
+        "imageLink" : "./images/popups/casglove.PNG"
     },
     "cashelm": { 
         "title" : "NEF + P.Amethyst",
         "titleColor" : "rgb(235, 30, 235)",  
+        "subtitle": "Helmet",
         "Line1": "+(5-10)% Faster Cast Rate", 
         "Line2": "Regenerate Mana (4-10)%", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/cashelm.png"
+        "imageLink" : "./images/popups/cashelm.PNG"
     },
     "casring": { 
         "title" : "AMN + P.Amethyst",
         "titleColor" : "rgb(235, 30, 235)",  
+        "subtitle": "Ring",
         "Line1": "+(5-10) To Energy", 
         "Line2": "+(1-2) Mana Per Kill", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/casring.png"
+        "imageLink" : "./images/popups/casring.PNG"
     },
     "casshie": { 
         "title" : "ETH + P.Amethyst",
         "titleColor" : "rgb(235, 30, 235)",  
+        "subtitle": "Shield",
         "Line1": "+(10-20)% Increased Chance of Blocking", 
         "Line2": "+(5-10)% Faster Cast Rate", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/casshie.png"
+        "imageLink" : "./images/popups/casshie.PNG"
     },
     "castamu": { 
         "title" : "RAL + P.Amethyst",
-        "titleColor" : "rgb(235, 30, 235)",  
+        "titleColor" : "rgb(235, 30, 235)", 
+        "subtitle": "Amulet", 
         "Line1": "+(5-10)% Faster Cast Rate", 
         "Line2": "Regenerate Mana (4-10)%", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/castamu.png"
+        "imageLink" : "./images/popups/castamu.PNG"
     },
     "caswep": { 
         "title" : "TIR + P.Amethyst",
-        "titleColor" : "rgb(235, 30, 235)",  
+        "titleColor" : "rgb(235, 30, 235)", 
+        "subtitle": "Weapon", 
         "Line1": "+1 To All Skills", 
         "Line2": "+(10-20)% Faster Cast Rate", 
         "Line3": "+(10-20) To Mana",
-        "imageLink" : "./images/popups/caswep.png"
+        "imageLink" : "./images/popups/caswep.PNG"
     },
     "hitamu": { 
         "title" : "THUL + P.Saphire",
         "titleColor" : "deepskyblue",  
+        "subtitle": "Amulet",
         "Line1": "+(150-250) To Attack Rating", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "+(10-20)% Faster Hit Recovery",
-        "imageLink" : "./images/popups/hitamu.png"
+        "imageLink" : "./images/popups/hitamu.PNG"
     },
     "hitbelt": { 
         "title" : "TAL + P.Saphire",
-        "titleColor" : "deepskyblue",  
+        "titleColor" : "deepskyblue", 
+        "subtitle": "Belt", 
         "Line1": "+(5-10)% Damage Taken Goes to Mana", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "+(10-20)% Faster Hit Recovery",
-        "imageLink" : "./images/popups/hitbelt.png"
+        "imageLink" : "./images/popups/hitbelt.PNG"
     },
     "hitboot": { 
         "title" : "RAL + P.Saphire",
         "titleColor" : "deepskyblue",  
+        "subtitle": "Boots",
         "Line1": "+(20-50) Defense vs. Melee", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "+(10-20)% Faster Hit Recovery",
-        "imageLink" : "./images/popups/hitboot.png"
+        "imageLink" : "./images/popups/hitboot.PNG"
     },
     "hitches": { 
         "title" : "Nef + P.Saphire",
-        "titleColor" : "deepskyblue",  
+        "titleColor" : "deepskyblue", 
+        "subtitle": "Armor", 
         "Line1": "+(20-50)% Enhanced Defense", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "+(20-40)% Faster Hit Recovery",
-        "imageLink" : "./images/popups/hitches.png"
+        "imageLink" : "./images/popups/hitches.PNG"
     },
     "hitglove": { 
         "title" : "ORT + P.Saphire",
-        "titleColor" : "deepskyblue",  
+        "titleColor" : "deepskyblue", 
+        "subtitle": "Gloves", 
         "Line1": "Knockback", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "-(10-20)% To Target Defense",
-        "imageLink" : "./images/popups/hitglove.png"
+        "imageLink" : "./images/popups/hitglove.PNG"
     },
     "hithelm": { 
         "title" : "ITH + P.Saphire",
         "titleColor" : "deepskyblue",  
+        "subtitle": "Helmet",
         "Line1": "+(100-200) To Attack Rating", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "+(10-20)% Faster Hit Recovery",
-        "imageLink" : "./images/popups/hithelm.png"
+        "imageLink" : "./images/popups/hithelm.PNG"
     },
     "hitring": { 
         "title" : "AMN + P.Saphire",
         "titleColor" : "deepskyblue",  
+        "subtitle": "Ring",
         "Line1": "+(5-10) To Dexterity", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "+(1-4) to Maximum Damage",
-        "imageLink" : "./images/popups/hitring.png"
+        "imageLink" : "./images/popups/hitring.PNG"
     },
     "hitshie": { 
         "title" : "ETH + P.Saphire",
         "titleColor" : "deepskyblue",  
+        "subtitle": "Shield",
         "Line1": "+(10-20)% Increased Chance of Blocking", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "+(20-30)% Faster Block Rate",
-        "imageLink" : "./images/popups/hitshie.png"
+        "imageLink" : "./images/popups/hitshie.PNG"
     },
     "hitwep": { 
         "title" : "TIR + P.Saphire",
         "titleColor" : "deepskyblue", 
+        "subtitle": "Weapon",
         "Line1": "+(50-80)% Enhanced Damage", 
         "Line2": "5% CTC lvl 4 Frost Nova when Struck", 
         "Line3": "-(10-20)% To Target Defense",
-        "imageLink" : "./images/popups/hitwep.png"
+        "imageLink" : "./images/popups/hitwep.PNG"
     },
     "safeamu": { 
         "title" : "THUL + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Amulet",
         "Line1": "+10% Increased Chance of Blocking", 
         "Line2": "Magic Damage Reduced By (2-5)", 
         "Line3": "Damage Reduced by (2-5)",
-        "imageLink" : "./images/popups/safeamu.png"
+        "imageLink" : "./images/popups/safeamu.PNG"
     },
     "safebelt": { 
         "title" : "TAL + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Belt",
         "Line1": "+(10-30)% Enhanced Defense", 
         "Line2": "Poison Resist +(10-20)%", 
         "Line3": "Phys and Magic Damage Reduced By (2-5)",
-        "imageLink" : "./images/popups/safebelt.png"
+        "imageLink" : "./images/popups/safebelt.PNG"
     },
     "safeboot": { 
         "title" : "ORT + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Boots",
         "Line1": "+(20-60)% Enhanced Defense", 
         "Line2": "Fire Resist +(10-20)%", 
         "Line3": "Phys and Magic Damage Reduced By (2-5)",
-        "imageLink" : "./images/popups/safeboot.png"
+        "imageLink" : "./images/popups/safeboot.PNG"
     },
     "safeches": { 
         "title" : "TAL + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Armor",
         "Line1": "+(20-60)% Enhanced Defense", 
         "Line2": "Half Freeze Duration", 
         "Line3": "Phys Damage Reduced By (5-10)%",
-        "imageLink" : "./images/popups/safeches.png"
+        "imageLink" : "./images/popups/safeches.PNG"
     },
     "safeglov": { 
         "title" : "RAL + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Gloves",
         "Line1": "+(10-30)% Enhanced Defense", 
         "Line2": "Cold Resist +(10-20)%", 
         "Line3": "Phys and Magic Damage Reduced By (2-5)",
-        "imageLink" : "./images/popups/safeglov.png"
+        "imageLink" : "./images/popups/safeglov.PNG"
     },
     "safehelm": { 
         "title" : "ITH + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Helmet",
         "Line1": "+(20-60)% Enhanced Defense", 
         "Line2": "Lightning Resist +(10-20)%", 
         "Line3": "Phys Damage Reduced By (5-10)%",
-        "imageLink" : "./images/popups/safehelm.png"
+        "imageLink" : "./images/popups/safehelm.PNG"
     },
     "safering": { 
         "title" : "AMN + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Ring",
         "Line1": "+(5-10) To Vitality", 
         "Line2": "Magic Damage Reduced By (2-5)", 
         "Line3": "Damage Reduced by (2-5)",
-        "imageLink" : "./images/popups/safering.png"
+        "imageLink" : "./images/popups/safering.PNG"
     },
     "safeshie": { 
         "title" : "NEF + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Shield",
         "Line1": "+(20-60)% Enhanced Defense", 
         "Line2": "", 
         "Line3": "Phys Damage Reduced By (5-10)%",
-        "imageLink" : "./images/popups/safeshie.png"
+        "imageLink" : "./images/popups/safeshie.PNG"
     },
     "safewep": { 
-        "title" : "NEF + P.Saphire \n Ranged only",
+        "title" : "NEF + P.Saphire",
         "titleColor" : "lime",  
+        "subtitle": "Bow and Xbow only",
         "Line1": "+(70-140)% Enhanced Damage", 
         "Line2": "+(10-20) Increased Attack Speed", 
         "Line3": "Phys and Magic Damage Reduced By (2-5)",
-        "imageLink" : "./images/popups/safewep.png"
+        "imageLink" : "./images/popups/safewep.PNG"
     },
     "vamamu": { 
         "title" : "DOL + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Amulet",
         "Line1": "(3-6)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life +(5-10)", 
         "Line3": "(5-10)% Reduced Curse Duration",
-        "imageLink" : "./images/popups/vamamu.png"
+        "imageLink" : "./images/popups/vamamu.PNG"
     },
     "vambelt": { 
         "title" : "ELD + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Belt",
         "Line1": "(3-6)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life +(5-10)", 
         "Line3": "(10-20)% Damage Taken Goes to Mana",
-        "imageLink" : "./images/popups/vambelt.png"
+        "imageLink" : "./images/popups/vambelt.PNG"
     },
     "vamboot": { 
         "title" : "EL + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Boots",
         "Line1": "(2-4)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life +(5-10)", 
         "Line3": "(10-20)% Reduced Poison Length",
-        "imageLink" : "./images/popups/vamboot.png"
+        "imageLink" : "./images/popups/vamboot.PNG"
     },
     "vamches": { 
         "title" : "TIR + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Armor",
         "Line1": "(3-6)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life +(5-10)", 
         "Line3": "Requirements -(20-30)%",
-        "imageLink" : "./images/popups/vamches.png"
+        "imageLink" : "./images/popups/vamches.PNG"
     },
     "vamglove": { 
         "title" : "IO + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Gloves",
         "Line1": "(2-4)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life +(5-10)", 
         "Line3": "(5-10)% Deadly Strike",
-        "imageLink" : "./images/popups/vamglove.png"
+        "imageLink" : "./images/popups/vamglove.PNG"
     },
     "vamhelm": { 
         "title" : "LUM + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Helmet",
         "Line1": "(2-4)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life +(5-10)", 
         "Line3": "(10-20)% Deadly Strike",
-        "imageLink" : "./images/popups/vamhelm.png"
+        "imageLink" : "./images/popups/vamhelm.PNG"
     },
     "vamring": { 
         "title" : "HEL + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Ring",
         "Line1": "(1-3)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life +(5-10)", 
         "Line3": "(10-20)% Reduced Poison Length",
-        "imageLink" : "./images/popups/vamring.png"
+        "imageLink" : "./images/popups/vamring.PNG"
     },
     "vamshie": { 
         "title" : "SOL + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Shield",
         "Line1": "(3-6)% Mana Stolen Per Hit", 
         "Line2": "+(10-20)% Increased Chance of Blocking", 
         "Line3": "Requirements -(20-30)%",
-        "imageLink" : "./images/popups/vamshie.png"
+        "imageLink" : "./images/popups/vamshie.PNG"
     },
     "vamwep": { 
         "title" : "SHAEL + P.Skull",
         "titleColor" : "silver",  
+        "subtitle": "Weapon",
         "Line1": "(3-6)% Mana Stolen Per Hit", 
         "Line2": "Replenish Life (10-15)", 
         "Line3": "+(75-120)% Damage to Undead/Demons",
-        "imageLink" : "./images/popups/vamwep.png"
+        "imageLink" : "./images/popups/vamwep.PNG"
     }
 }
