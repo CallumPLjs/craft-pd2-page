@@ -153,8 +153,9 @@ async function createCardContent(cellObject) {
   // console.log(cellObject);
 
   // Create the HTML content for the hover card
+  // style="border-color: ${titleColor};"
   return `
-    <div class="popup-contents" style="border-color: ${titleColor};"> 
+    <div class="popup-contents"> 
       <div class="popup-list">
         <p class="card-header" style="color: ${titleColor};">${title} + Jewel</p>
         <p style="color: ${titleColor}; font-weight: bold;">${subtitle}</p>
