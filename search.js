@@ -118,7 +118,7 @@ function displayHoverCard(x, y, content) {
 
   if (x > screenWidth / 2) {
     // Adjust the position towards the left side
-    cellPopup.style.left = (x-400) + 'px';
+    cellPopup.style.left = (x-650) + 'px';
   } else {
     // Position normally
     cellPopup.style.left = (x+50) + 'px';
