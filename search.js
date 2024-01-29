@@ -118,7 +118,7 @@ function displayHoverCard(x, y, content) {
 
   if (x > screenWidth / 2) {
     // Adjust the position towards the left side
-    cellPopup.style.left = (x-300) + 'px';
+    cellPopup.style.left = (x-400) + 'px';
   } else {
     // Position normally
     cellPopup.style.left = (x+50) + 'px';
@@ -156,7 +156,7 @@ async function createCardContent(cellObject) {
   return `
     <div class="popup-contents" style="border-color: ${titleColor};"> 
       <div class="popup-list">
-        <p class="card-header" style="color: ${titleColor};">${title}</p>
+        <p class="card-header" style="color: ${titleColor};">${title} + Jewel</p>
         <p style="color: ${titleColor}; font-weight: bold;">${subtitle}</p>
         <ul>
           <li>${Line1}</li>
@@ -164,9 +164,9 @@ async function createCardContent(cellObject) {
           <li>${Line3}</li>
         </ul>
       </div>  
-      <!--<div class="card-image">
+      <div class="card-image">
         ${imageContent}
-      </div>-->
+      </div>
     </div>
   `;
 }
