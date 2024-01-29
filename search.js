@@ -57,7 +57,9 @@ dropdown.addEventListener("change", function() {
 document.getElementById("searchInput").addEventListener("input", function() {
   let filter, tr, td, txtValue;
   // input = document.getElementById("searchInput");
-  filter = input.value.toUpperCase();
+  let userInput = input.value.replace(/[^\w\s]/gi, '');
+  filter = userInput.toUpperCase();
+  console.log(filter);
   tr = table.getElementsByTagName("tr");
   document.getElementById("runes").value = "";
   
@@ -68,6 +70,7 @@ document.getElementById("searchInput").addEventListener("input", function() {
       if (td[j]) {
         txtValue = td[j].textContent || td[j].innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          console.log(txtValue.toUpperCase().indexOf(filter));
           styleSearch(td[j]);
           found = true;
         } else {
