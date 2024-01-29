@@ -154,7 +154,7 @@ async function createCardContent(cellObject) {
 
   // Create the HTML content for the hover card
   return `
-    <div class="popup-contents"> 
+    <div class="popup-contents" style="border-color: ${titleColor};"> 
       <div class="popup-list">
         <p class="card-header" style="color: ${titleColor};">${title}</p>
         <p style="color: ${titleColor}; font-weight: bold;">${subtitle}</p>
