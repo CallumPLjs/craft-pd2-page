@@ -146,7 +146,7 @@ async function getCellObject(cellId) {
 
 async function createCardContent(cellObject) {
   await Promise.resolve(cellObject);
-  const { title, titleColor, Line1, Line2, Line3, imageLink } = cellObject;
+  const { title, titleColor, subtitle, Line1, Line2, Line3, imageLink } = cellObject;
 
   const imageContent = imageLink ? `<img src="${imageLink}" alt="" style="width:320px;height:120px;" class="popupImage">` : '';
 
@@ -157,6 +157,7 @@ async function createCardContent(cellObject) {
     <div class="popup-contents"> 
       <div class="popup-list">
         <p class="card-header" style="color: ${titleColor};">${title}</p>
+        <p style="color: ${titleColor}; font-weight: bold;">${subtitle}</p>
         <ul>
           <li>${Line1}</li>
           <li>${Line2}</li>
