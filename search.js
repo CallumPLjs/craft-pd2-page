@@ -120,7 +120,7 @@ function displayHoverCard(x, y, content) {
     cellPopup.style.left = (x-300) + 'px';
   } else {
     // Position normally
-    cellPopup.style.left = x + 'px';
+    cellPopup.style.left = (x+50) + 'px';
   }
 
   cellPopup.style.top = y + 'px';
