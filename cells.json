@@ -324,7 +324,7 @@
         "imageLink" : "./images/popups/hitwep.PNG"
     },
     "safeamu": { 
-        "title" : "THUL + P.Saphire",
+        "title" : "THUL + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Amulet",
         "Line1": "+10% Increased Chance of Blocking", 
@@ -333,7 +333,7 @@
         "imageLink" : "./images/popups/safeamu.PNG"
     },
     "safebelt": { 
-        "title" : "TAL + P.Saphire",
+        "title" : "TAL + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Belt",
         "Line1": "+(10-30)% Enhanced Defense", 
@@ -342,7 +342,7 @@
         "imageLink" : "./images/popups/safebelt.PNG"
     },
     "safeboot": { 
-        "title" : "ORT + P.Saphire",
+        "title" : "ORT + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Boots",
         "Line1": "+(20-60)% Enhanced Defense", 
@@ -351,7 +351,7 @@
         "imageLink" : "./images/popups/safeboot.PNG"
     },
     "safeches": { 
-        "title" : "TAL + P.Saphire",
+        "title" : "TAL + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Armor",
         "Line1": "+(20-60)% Enhanced Defense", 
@@ -360,7 +360,7 @@
         "imageLink" : "./images/popups/safeches.PNG"
     },
     "safeglov": { 
-        "title" : "RAL + P.Saphire",
+        "title" : "RAL + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Gloves",
         "Line1": "+(10-30)% Enhanced Defense", 
@@ -369,7 +369,7 @@
         "imageLink" : "./images/popups/safeglov.PNG"
     },
     "safehelm": { 
-        "title" : "ITH + P.Saphire",
+        "title" : "ITH + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Helmet",
         "Line1": "+(20-60)% Enhanced Defense", 
@@ -378,7 +378,7 @@
         "imageLink" : "./images/popups/safehelm.PNG"
     },
     "safering": { 
-        "title" : "AMN + P.Saphire",
+        "title" : "AMN + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Ring",
         "Line1": "+(5-10) To Vitality", 
@@ -387,7 +387,7 @@
         "imageLink" : "./images/popups/safering.PNG"
     },
     "safeshie": { 
-        "title" : "NEF + P.Saphire",
+        "title" : "NEF + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Shield",
         "Line1": "+(20-60)% Enhanced Defense", 
@@ -396,7 +396,7 @@
         "imageLink" : "./images/popups/safeshie.PNG"
     },
     "safewep": { 
-        "title" : "NEF + P.Saphire",
+        "title" : "NEF + P.Emerald",
         "titleColor" : "lime",  
         "subtitle": "Bow and Xbow only",
         "Line1": "+(70-140)% Enhanced Damage", 
