@@ -74,10 +74,189 @@
         }
     ],
     "staves" : [
+        {
+            "name" : "short staff",
+            "qlvl" : 1,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "long staff",
+            "qlvl" : 8,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "gnarled staff",
+            "qlvl" : 12,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "battle staff",
+            "qlvl" : 17,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war staff",
+            "qlvl" : 24,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "jo staff",
+            "qlvl" : 30,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "quarterstaff",
+            "qlvl" : 35,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cedar staff",
+            "qlvl" : 38,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "gothic staff",
+            "qlvl" : 30,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "rune staff",
+            "qlvl" : 30,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "walking stick",
+            "qlvl" : 58,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "stalagmite",
+            "qlvl" : 66,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "elder staff",
+            "qlvl" : 74,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "shillelagh",
+            "qlvl" : 83,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "archon staff",
+            "qlvl" : 85,
+            "maglvl" : 1,
+            "quality" : "elite"
+        }
 
     ],
     "orbs" : [
-
+        {
+            "name" : "eagle orb",
+            "qlvl" : 1,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "sacred globe",
+            "qlvl" : 8,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "smoked sphere",
+            "qlvl" : 12,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "clasped orb",
+            "qlvl" : 17,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "jared's stone",
+            "qlvl" : 24,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "glowing orb",
+            "qlvl" : 32,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "crystalline globe",
+            "qlvl" : 37,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cloudy sphere",
+            "qlvl" : 41,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sparkling ball",
+            "qlvl" : 46,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "swirling crystal",
+            "qlvl" : 50,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "heavenly stone",
+            "qlvl" : 59,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "eldritch orb",
+            "qlvl" : 67,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "demon heart",
+            "qlvl" : 75,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "vortex orb",
+            "qlvl" : 84,
+            "maglvl" : 1,
+            "quality" : "elite"
+        },
+        {
+            "name" : "dimensional shard",
+            "qlvl" : 85,
+            "maglvl" : 1,
+            "quality" : "elite"
+        }
     ],
     "polearms" : [
         {
@@ -1166,7 +1345,152 @@
             "quality" : "elite"
         }
     ],
-    "bows" : [],
+    "bows" : [
+        {
+            "name" : "short bow",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "hunter's bow",
+            "qlvl" : 5,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "long bow",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "composite bow",
+            "qlvl" : 12,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "short battle bow",
+            "qlvl" : 18,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "long battle bow",
+            "qlvl" : 23,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "short war bow",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "long war bow",
+            "qlvl" : 31,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "edge bow",
+            "qlvl" : 30,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "razor bow",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cedar bow",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "double bow",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "short siege bow",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "large siege bow",
+            "qlvl" : 46,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "rune bow",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "gothic bow",
+            "qlvl" : 52,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "spider bow",
+            "qlvl" : 55,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "blade bow",
+            "qlvl" : 60,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "shadow bow",
+            "qlvl" : 63,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "great bow",
+            "qlvl" : 68,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "diamond bow",
+            "qlvl" : 72,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "crusader bow",
+            "qlvl" : 77,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "ward bow",
+            "qlvl" : 80,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "hydra bow",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
     "amazon weapons" : [
         {
             "name" : "stag bow",
