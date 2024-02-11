@@ -1,0 +1,1253 @@
+{
+    "head" : [
+        {
+            "name" : "cap",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "skull cap",
+            "qlvl" : 5,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "helm",
+            "qlvl" : 11,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "full helm",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "mask",
+            "qlvl" : 19,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "bone helm",
+            "qlvl" : 22,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "great helm",
+            "qlvl" : 23,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "crown",
+            "qlvl" : 29,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war hat",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sallet",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "casque",
+            "qlvl" : 42,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "basinet",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "death mask",
+            "qlvl" : 48,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "grim helm",
+            "qlvl" : 50,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "winged helm",
+            "qlvl" : 51,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "grand crown",
+            "qlvl" : 55,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "shako",
+            "qlvl" : 58,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "hydraskull",
+            "qlvl" : 63,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "armet",
+            "qlvl" : 68,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "giant conch",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "demonhead",
+            "qlvl" : 74,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "bone visage",
+            "qlvl" : 84,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "spired helm",
+            "qlvl" : 79,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "corona",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "chest" : [
+        {
+            "name" : "quilted armor",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "leather armor",
+            "qlvl" : 3,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "hard leather armor",
+            "qlvl" : 5,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "studded leather",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "ring mail",
+            "qlvl" : 11,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "scale mail",
+            "qlvl" : 13,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "chain mail",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "breast plate",
+            "qlvl" : 18,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "splint mail",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "plate mail",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "field plate",
+            "qlvl" : 28,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "gothic plate",
+            "qlvl" : 32,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "light plate",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "full plate mail",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "ancient armor",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "ghost armor",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "serpentskin armor",
+            "qlvl" : 36,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "demonhide armor",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "trellised armor",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "linked mail",
+            "qlvl" : 42,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "tigulated mail",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "mesh armor",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cuirass",
+            "qlvl" : 47,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "russet armor",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "templar coat",
+            "qlvl" : 52,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sharktooth armor",
+            "qlvl" : 55,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "embossed plate",
+            "qlvl" : 58,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "mage plate",
+            "qlvl" : 60,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "chaos armor",
+            "qlvl" : 61,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ornate plate",
+            "qlvl" : 64,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "dusk shroud",
+            "qlvl" : 65,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "wyrmhide",
+            "qlvl" : 67,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "scarab husk",
+            "qlvl" : 68,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "wire fleece",
+            "qlvl" : 70,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "diamond mail",
+            "qlvl" : 72,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "loricated mail",
+            "qlvl" : 73,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "boneweave",
+            "qlvl" : 62,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "great hauberk",
+            "qlvl" : 75,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "balrog skin",
+            "qlvl" : 76,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "hellforge plate",
+            "qlvl" : 78,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "kraken shell",
+            "qlvl" : 81,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "lacquered plate",
+            "qlvl" : 82,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "archon plate",
+            "qlvl" : 84,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "shadow plate",
+            "qlvl" : 83,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "sacred armor",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "belt" : [
+        {
+            "name" : "sash",
+            "qlvl" : 3,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "light belt",
+            "qlvl" : 7,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "belt",
+            "qlvl" : 12,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "heavy belt",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "plated belt",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "demonhide sash",
+            "qlvl" : 36,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sharkskin belt",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "mesh belt",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "battle belt",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "war belt",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "spiderweb sash",
+            "qlvl" : 61,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "vampirefang belt",
+            "qlvl" : 68,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "mithril coil",
+            "qlvl" : 75,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "troll belt",
+            "qlvl" : 82,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "collosus girdle",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "gloves" : [
+        {
+            "name" : "leather gloves",
+            "qlvl" : 3,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "heavy gloves",
+            "qlvl" : 7,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "chain gloves",
+            "qlvl" : 12,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "light gauntlets",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "gauntlets",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "demonhide gloves",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sharkskin gloves",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "heavy bracers",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "battle gauntlets",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "war gauntlets",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "bramble mitts",
+            "qlvl" : 57,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "vampirebone gloves",
+            "qlvl" : 63,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "vambraces",
+            "qlvl" : 69,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "crusader gauntlets",
+            "qlvl" : 76,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "ogre gauntlets",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "boots" : [
+        {
+            "name" : "boots",
+            "qlvl" : 3,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "heavy boots",
+            "qlvl" : 7,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "chain boots",
+            "qlvl" : 12,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "light plated boots",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "greaves",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "demonhide boots",
+            "qlvl" : 36,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sharkskin boots",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "mesh boots",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "battle boots",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "war boots",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "wyrmhide boots",
+            "qlvl" : 60,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "scarabshell boots",
+            "qlvl" : 66,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "boneweave boots",
+            "qlvl" : 72,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "mirrored boots",
+            "qlvl" : 81,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "myrmidon greaves",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "rings" : [
+        {
+            "name" : "ring",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        }
+    ],
+    "amulets" : [
+        {
+            "name" : "amulet",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        }
+    ],
+    "circlet" : [
+        {
+            "name" : "circlet",
+            "qlvl" : 24,
+            "maglvl" : 3,
+            "quality" : "normal"
+        }, 
+        {
+            "name" : "coronet",
+            "qlvl" : 52,
+            "maglvl" : 8,
+            "quality" : "normal"
+        }, 
+        {
+            "name" : "tiara",
+            "qlvl" : 70,
+            "maglvl" : 13,
+            "quality" : "exceptional"
+        }, 
+        {
+            "name" : "diadem",
+            "qlvl" : 85,
+            "maglvl" : 18,
+            "quality" : "elite"
+        }
+    ],
+    "shield" : [
+        {
+            "name" : "buckler",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "small shield",
+            "qlvl" : 5,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "large shield",
+            "qlvl" : 11,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "spiked shield",
+            "qlvl" : 11,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "kite shield",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "bone shield",
+            "qlvl" : 19,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "tower shield",
+            "qlvl" : 22,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "gothic shield",
+            "qlvl" : 30,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "defender",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "round shield",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "scutum",
+            "qlvl" : 42,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "barbed shield",
+            "qlvl" : 42,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "dragon shield",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "grim shield",
+            "qlvl" : 48,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "pavise",
+            "qlvl" : 50,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ancient shield",
+            "qlvl" : 56,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "heater",
+            "qlvl" : 58,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "luna",
+            "qlvl" : 61,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "hyperion",
+            "qlvl" : 64,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "blade barrier",
+            "qlvl" : 68,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "monarch",
+            "qlvl" : 72,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "troll nest",
+            "qlvl" : 76,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "aegis",
+            "qlvl" : 79,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "ward",
+            "qlvl" : 84,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "druid helm" :[
+        {
+            "name" : "wolf head",
+            "qlvl" : 4,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "hawk helm",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "antlers",
+            "qlvl" : 16,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "falcon mask",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "spirit mask",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "alpha helm",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "griffon headress",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "hunter's guise",
+            "qlvl" : 46,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sacred feathers",
+            "qlvl" : 50,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "totemic mask",
+            "qlvl" : 55,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "blood spirit",
+            "qlvl" : 62,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "sun spirit",
+            "qlvl" : 69,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "earth spirit",
+            "qlvl" : 76,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "sky spirit",
+            "qlvl" : 83,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "dream spirit",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "barbarian helm" : [
+        {
+            "name" : "jawbone cap",
+            "qlvl" : 4,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "fanged helm",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "horned helm",
+            "qlvl" : 16,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "assault helmet",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "avenger guard",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "jawbone visor",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "lion helm",
+            "qlvl" : 38,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "rage mask",
+            "qlvl" : 44,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "savage helmet",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "slayer guard",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "carnage helm",
+            "qlvl" : 60,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "fury visor",
+            "qlvl" : 66,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "destroyer helm",
+            "qlvl" : 73,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "conqueror crown",
+            "qlvl" : 80,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "guardian crown",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "necromancer shield" :  [
+        {
+            "name" : "preserved head",
+            "qlvl" : 4,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "zombie head",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "unraveller head",
+            "qlvl" : 16,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "gargoyle head",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "demon head",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "mummified trophy",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "fetish trophy",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sextor trophy",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cantor trophy",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "hierophant trophy",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "minion skull",
+            "qlvl" : 59,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "hellspawn skull",
+            "qlvl" : 67,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "overseer skull",
+            "qlvl" : 66,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "succubus skull",
+            "qlvl" : 81,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "bloodlord skull",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+
+    ],
+    "paladin shield" : [
+        {
+            "name" : "targe",
+            "qlvl" : 4,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "rondache",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "heraldic shield",
+            "qlvl" : 16,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "aerin shield",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "crown shield",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "akaran targe",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "akaran rondache",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "protector shield",
+            "qlvl" : 46,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "gilded shield",
+            "qlvl" : 51,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "royal shield",
+            "qlvl" : 55,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "sacred targe",
+            "qlvl" : 63,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "sacred rondache",
+            "qlvl" : 70,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "kurast shield",
+            "qlvl" : 74,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "zakarum shield",
+            "qlvl" : 82,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "vortex shield",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ]
+}

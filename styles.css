@@ -164,3 +164,25 @@ li {
         width: 60%;
     }
 } */
+
+.parameters {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    margin: 0px 0px;
+}
+
+h4 {
+    color: aquamarine;
+}
+
+h2 {
+    color: rgb(96, 190, 159);
+}
+
+a {
+    color:coral;
+    text-decoration: none;
+    font-size: 1.2em;
+}

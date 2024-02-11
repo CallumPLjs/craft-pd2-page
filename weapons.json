@@ -1,0 +1,1464 @@
+{
+    "wands" : [
+        {
+            "name" : "wand",
+            "qlvl" : 2,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "yew wand",
+            "qlvl" : 12,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "bone wand",
+            "qlvl" : 18,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "grim wand",
+            "qlvl" : 26,
+            "maglvl" : 1,
+            "quality" : "normal"
+        },
+        {
+            "name" : "burnt wand",
+            "qlvl" : 31,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "petrified wand",
+            "qlvl" : 38,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "tomb wand",
+            "qlvl" : 43,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "grave wand",
+            "qlvl" : 49,
+            "maglvl" : 1,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "polished wand",
+            "qlvl" : 55,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "ghost wand",
+            "qlvl" : 65,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "liched wand",
+            "qlvl" : 75,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "unearthed wand",
+            "qlvl" : 86,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "staves" : [
+
+    ],
+    "orbs" : [
+
+    ],
+    "polearms" : [
+        {
+            "name" : "bardiche",
+            "qlvl" : 5,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "voulge",
+            "qlvl" : 11,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "scythe",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "poleaxe",
+            "qlvl" : 21,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "halberd",
+            "qlvl" : 29,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war scythe",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "lochaber axe",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "bill",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "battle scythe",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "partizan",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "bec-de-corbin",
+            "qlvl" : 51,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "grim scythe",
+            "qlvl" : 55,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ogre axe",
+            "qlvl" : 60,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "colossus voulge",
+            "qlvl" : 64,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "thresher",
+            "qlvl" : 71,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "cryptic axe",
+            "qlvl" : 79,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "great poleaxe",
+            "qlvl" : 84,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "giant thresher",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "spears" : [
+        {
+            "name" : "spear",
+            "qlvl" : 5,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "trident",
+            "qlvl" : 9,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "brandistock",
+            "qlvl" : 16,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "spetum",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "pike",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war spear",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "fuscina",
+            "qlvl" : 36,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "war fork",
+            "qlvl" : 41,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "yari",
+            "qlvl" : 44,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "lance",
+            "qlvl" : 47,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "hyperion spear",
+            "qlvl" : 58,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "stygian pike",
+            "qlvl" : 66,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "mancatcher",
+            "qlvl" : 73,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "ghost spear",
+            "qlvl" : 83,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "war pike",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "javelins" : [
+        {
+            "name" : "javelin",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "pilum",
+            "qlvl" : 10,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "short spear",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "glaive",
+            "qlvl" : 23,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "throwing spear",
+            "qlvl" : 29,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war javelin",
+            "qlvl" : 30,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "great pilum",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "simbilan",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "spiculum",
+            "qlvl" : 46,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "harpoon",
+            "qlvl" : 51,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "hyperion javelin",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "stygian pilum",
+            "qlvl" : 62,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "balrog spear",
+            "qlvl" : 71,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "ghost glaive",
+            "qlvl" : 79,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "winged harpoon",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "throw" : [
+        {
+            "name" : "throwing knife",
+            "qlvl" : 2,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "throwing axe",
+            "qlvl" : 7,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "balanced knife",
+            "qlvl" : 13,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "balanced axe",
+            "qlvl" : 17,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "battle dart",
+            "qlvl" : 31,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "francisca",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "war dart",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "hurlbat",
+            "qlvl" : 41,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "flying knife",
+            "qlvl" : 64,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "flying axe",
+            "qlvl" : 56,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "winged knife",
+            "qlvl" : 77,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "winged axe",
+            "qlvl" : 80,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "daggers" : [
+        {
+            "name" : "dagger",
+            "qlvl" : 3,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "dirk",
+            "qlvl" : 9,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "kris",
+            "qlvl" : 17,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "blade",
+            "qlvl" : 23,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "poignard",
+            "qlvl" : 31,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "rondel",
+            "qlvl" : 36,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cinquedeas",
+            "qlvl" : 42,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "stiletto",
+            "qlvl" : 46,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "bone knife",
+            "qlvl" : 58,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "mithril point",
+            "qlvl" : 70,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "fanged knife",
+            "qlvl" : 83,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "legend spike",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ], 
+    "swords1" : [
+        {
+            "name" : "short sword",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "scimitar",
+            "qlvl" : 5,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "sabre",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "falchion",
+            "qlvl" : 11,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "crystal sword",
+            "qlvl" : 11,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "broad sword",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "long sword",
+            "qlvl" : 20,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war sword",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "gladius",
+            "qlvl" : 30,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cutlass",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "samshir",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "tulwar",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "dimensional blade",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "battle sword",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "rune sword",
+            "qlvl" : 44,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ancient sword",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "falcata",
+            "qlvl" : 56,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "Athagan",
+            "qlvl" : 61,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "elegant blade",
+            "qlvl" : 63,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "hydra edge",
+            "qlvl" : 69,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "phase blade",
+            "qlvl" : 73,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "conquest sword",
+            "qlvl" : 78,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "cryptic sword",
+            "qlvl" : 82,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "mythical sword",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "swords2" : [
+        {
+            "name" : "two-handed sword",
+            "qlvl" : 10,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "claymore",
+            "qlvl" : 17,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "giant sword",
+            "qlvl" : 21,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "bastard sword",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "flamberge",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "great sword",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "espandon",
+            "qlvl" : 37,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "dacian falx",
+            "qlvl" : 42,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "tusk sword",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "gothic sword",
+            "qlvl" : 48,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "zweihander",
+            "qlvl" : 49,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "executioner's sword",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "legend sword",
+            "qlvl" : 59,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "highland blade",
+            "qlvl" : 66,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "balrog blade",
+            "qlvl" : 56,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "champion sword",
+            "qlvl" : 77,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "colossus sword",
+            "qlvl" : 80,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "colossus blade",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "axes1" : [
+        {
+            "name" : "hand axe",
+            "qlvl" : 3,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "axe",
+            "qlvl" : 7,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "double axe",
+            "qlvl" : 13,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "military pick",
+            "qlvl" : 19,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war axe",
+            "qlvl" : 25,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "hatchet",
+            "qlvl" : 31,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "cleaver",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "twin axe",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "crowbill",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "naga",
+            "qlvl" : 48,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "tomahawk",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "small crescent",
+            "qlvl" : 61,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "ettin axe",
+            "qlvl" : 70,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "war spike",
+            "qlvl" : 79,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "berseker axe",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+        
+    ],
+    "axes2" : [
+        {
+            "name" : "large axe",
+            "qlvl" : 6,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "broad axe",
+            "qlvl" : 12,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "battle axe",
+            "qlvl" : 17,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "great axe",
+            "qlvl" : 23,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "giant axe",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "nilitary axe",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "bearded axe",
+            "qlvl" : 38,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "tabar",
+            "qlvl" : 42,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "gothic axe",
+            "qlvl" : 46,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ancient axe",
+            "qlvl" : 51,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "feral axe",
+            "qlvl" : 57,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "silver-edged axe",
+            "qlvl" : 65,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "decapitator",
+            "qlvl" : 73,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "champion axe",
+            "qlvl" : 82,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "glorious axe",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "maces1" : [
+        {
+            "name" : "club",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "spiked club",
+            "qlvl" : 4,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "mace",
+            "qlvl" : 8,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "morning star",
+            "qlvl" : 13,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "flail",
+            "qlvl" : 19,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war hammer",
+            "qlvl" : 25,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "cudgel",
+            "qlvl" : 30,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "barbed club",
+            "qlvl" : 32,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "flanged mace",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "jagged star",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "knout",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "battle hammer",
+            "qlvl" : 48,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "truncheon",
+            "qlvl" : 52,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "tyrant club",
+            "qlvl" : 57,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "reinforced mace",
+            "qlvl" : 63,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "devil star",
+            "qlvl" : 70,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "scourge",
+            "qlvl" : 76,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "legendary mallet",
+            "qlvl" : 82,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "maces2" : [
+        {
+            "name" : "maul",
+            "qlvl" : 21,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "great maul",
+            "qlvl" : 32,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war club",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "martel de fer",
+            "qlvl" : 53,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ogre maul",
+            "qlvl" : 69,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "thunder maul",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "scepters" : [
+        {
+            "name" : "scepter",
+            "qlvl" : 3,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "grand scepter",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "war scepter",
+            "qlvl" : 21,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "rune scepter",
+            "qlvl" : 31,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "holy water sprinkler",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "divine scepter",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "mighty scepter",
+            "qlvl" : 62,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "seraph rod",
+            "qlvl" : 76,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "caduceus",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "bows" : [],
+    "amazon weapons" : [
+        {
+            "name" : "stag bow",
+            "qlvl" : 18,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "reflex bow",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "maiden spear",
+            "qlvl" : 18,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "maiden pike",
+            "qlvl" : 27,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "maiden javelin",
+            "qlvl" : 23,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "ashwood bow",
+            "qlvl" : 39,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ceremonial bow",
+            "qlvl" : 47,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ceremonial spear",
+            "qlvl" : 43,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ceremonial pike",
+            "qlvl" : 51,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ceremonial javelin",
+            "qlvl" : 35,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "matriarchal bow",
+            "qlvl" : 53,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "grand matron bow",
+            "qlvl" : 78,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "matriarchal spear",
+            "qlvl" : 61,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "matriarchal pike",
+            "qlvl" : 81,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "matriarchal javelin",
+            "qlvl" : 65,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "xbows" : [
+        {
+            "name" : "light crossbow",
+            "qlvl" : 6,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "crossbow",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "heavy crossbow",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "repeating crossbow",
+            "qlvl" : 33,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "arbalest",
+            "qlvl" : 34,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "siege crossbow",
+            "qlvl" : 40,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "ballista",
+            "qlvl" : 47,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "chu-ko-nu",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "pellet bow",
+            "qlvl" : 57,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "gorgon crossbow",
+            "qlvl" : 67,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "colossus crossbow",
+            "qlvl" : 75,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "demon crossbow",
+            "qlvl" : 84,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ],
+    "claws" : [
+        {
+            "name" : "katar",
+            "qlvl" : 1,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "wrist blade",
+            "qlvl" : 9,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "hatchet hands",
+            "qlvl" : 12,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "cestus",
+            "qlvl" : 15,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "claws",
+            "qlvl" : 18,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "blade talons",
+            "qlvl" : 21,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "scissors katar",
+            "qlvl" : 24,
+            "maglvl" : 0,
+            "quality" : "normal"
+        },
+        {
+            "name" : "quhab",
+            "qlvl" : 28,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "wrist spike",
+            "qlvl" : 32,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "fascia",
+            "qlvl" : 36,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "hand scythe",
+            "qlvl" : 41,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "greater claws",
+            "qlvl" : 45,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "greater talons",
+            "qlvl" : 50,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "scissors quhab",
+            "qlvl" : 54,
+            "maglvl" : 0,
+            "quality" : "exceptional"
+        },
+        {
+            "name" : "suwayyah",
+            "qlvl" : 59,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "wrist sword",
+            "qlvl" : 62,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "war fist",
+            "qlvl" : 68,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "battle cestus",
+            "qlvl" : 73,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "feral claws",
+            "qlvl" : 78,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "runic talons",
+            "qlvl" : 81,
+            "maglvl" : 0,
+            "quality" : "elite"
+        },
+        {
+            "name" : "scissors suwayyah",
+            "qlvl" : 85,
+            "maglvl" : 0,
+            "quality" : "elite"
+        }
+    ]
+}
