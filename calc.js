@@ -74,6 +74,9 @@ function validateForm() {
     if (dropped_iLvl && !buyer_cLvl) {
         crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(dropped_iLvl/2);
     }
+    if (dropped_iLvl && buyer_cLvl) {
+        crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(dropped_iLvl/2);
+    }
 
 
     let shoppedItemAfixLevel = generateALvl(spawned_iLvl, qlvl);
