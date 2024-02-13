@@ -267,7 +267,7 @@
 
                 <section class="grid-item">
                     <div id="affixOutputDisplay" style="margin-top: 2px;">
-                        <h2>Affix Output:</h2>
+                        <h2>Affix Pool Output:</h2>
                         <div>
                             <table id="affixTable">
                                 <thead>
@@ -302,141 +302,145 @@
     </div>
 
 
-    <div>
+    <div class="grid-container explain">
+        
+        <section class="grid-item">
         <h2>Explanations and terms:</h2>
-        <p>Your aim might be to impose an upper limit on the <b style="color:aqua">crafted's</b> item aLvl, while
-            maintaining a decent iLvl for the resulting <b style="color:aqua">craft</b> (51 - desired at minimum or 71 - for
-            higher qlvls).</p>
-        <p>The base's iLvl (determined by the shopper's cLvl) and crafter's cLvl determine the crafted item's iLvl. To stay
-            within bounds for iLvl = 51, if one value goes up, the other goes down</p>
-        <p></p>
-        <ol>
-            <li>
-                <h4>Base iLvl:</h4>
-                <ul>
-                    <li>Dropped: you already have the items and can see the iLvls on item stat shown by most lootfilters.
-                        <p>Otherwise:</p>
-                            <ul>
-                                <li>ilvl = mlvl (monster drops)</li>
-                                <li>ilvl = Alvl (chest drops) where A=area</li>
-                                <li>ilvl = Alvl - 1 (rack drops)</li>
-                                <li>mlvl = Alvl (regular monsters)</li>
-                                <li>mlvl = Alvl + 2 (champions, any kind)</li>
-                                <li>mlvl = Alvl + 3 (bosses and minions)</li>
-                            </ul>
-                    </li>
-                    <li>
-                        Shopped: you are planning to shop bases and craft with them. Apart from some "Normal" difficulty
-                        restriction on max iLvl from shops, the rule of thumb is: the shopped item <b style="color:aqua">iLvl = cLvl + 5</b>, where cLvl is the level of the character doing the shopping.
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h4>Base aLvl:</h4>
-                <ul>
-                    <li>
-                        <p>
-                            Only relevant when using this here tool to determine which level is best to do your buying for certain magic items
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            For example, +3 skilltree is a lvl 60 affix and Alacrity +20% Increased Attack Speed is lvl 43. if you are looking for 3/20 gloves, the earliest option would be to start buying leather and heavy gloves in act1 NM at lvl 58.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            To test, pick Gloves>leather gloves from base dropdowns and input 56 in the buyer level field. The result should show 60 in the shopped item affix level field.
-                        </p>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h4>Crafted item iLvl:</h4>
-                <ul>
-                    <li>
-                        <p>Determines the chance of getting 4 random afixes; direct relation with crafter cLvl and base iLvl.</p>
-                    </li>
-                    <li>
-                        <p>If you need to increase it, increase either buyer (for base iLvl increase) or crafter cLvl (use a higher level character to buy or craft) or farm in high area levels (also for base iLvl increase)</p>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h4>Crafted item aLvl, see some example combos bellow:</h4>
-                <ul>
-                    <li>
-                        <p>For: high level affix and 71+ iLvl, base iLvl and crafter cLvl should be on the high side while qlvl on the low side (pick lower quality bases)</p> 
-                    </li>
-                    <li>
-                        <p>
-                            Qlvls for each item type (i.e. armor, boots, etc.) start at around 1 at the lowest item and usually end at 85 (can't buy elites though, can
-                            only drop in high area levels).
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            For a complete list of qlvls and affixes visit <a href="https://wiki.projectdiablo2.com/wiki/Item_Affixes" target="new">PD2 wiki affix page</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>For: 71+ iLvl and 40+ aLvl, mid to high qlvl, high buyer, mid crafter</p>
-                       
-                    </li>
-                    <li>
-                        <p>For: 51+ iLvl and 40+ aLvl, low to mid qlvl, highish buyer, low crafter</p>
+            <p>Your aim might be to impose an upper limit on the <b style="color:aqua">crafted's</b> item aLvl, while
+                maintaining a decent iLvl for the resulting <b style="color:aqua">craft</b> (51 - desired at minimum or 71 - for
+                higher qlvls).</p>
+            <p>The base's iLvl (determined by the shopper's cLvl) and crafter's cLvl determine the crafted item's iLvl. To stay
+                within bounds for iLvl = 51, if one value goes up, the other goes down</p>
+            <p></p>
+            <ol>
+                <li>
+                    <h4>Base iLvl:</h4>
+                    <ul>
+                        <li>Dropped: you already have the items and can see the iLvls on item stat shown by most lootfilters.
+                            <p>Otherwise:</p>
+                                <ul>
+                                    <li>ilvl = mlvl (monster drops)</li>
+                                    <li>ilvl = Alvl (chest drops) where A=area</li>
+                                    <li>ilvl = Alvl - 1 (rack drops)</li>
+                                    <li>mlvl = Alvl (regular monsters)</li>
+                                    <li>mlvl = Alvl + 2 (champions, any kind)</li>
+                                    <li>mlvl = Alvl + 3 (bosses and minions)</li>
+                                </ul>
+                        </li>
+                        <li>
+                            Shopped: you are planning to shop bases and craft with them. Apart from some "Normal" difficulty
+                            restriction on max iLvl from shops, the rule of thumb is: the shopped item <b style="color:aqua">iLvl = cLvl + 5</b>, where cLvl is the level of the character doing the shopping.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Base aLvl:</h4>
+                    <ul>
+                        <li>
+                            <p>
+                                Only relevant when using this here tool to determine which level is best to do your buying for certain magic items
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For example, +3 skilltree is a lvl 60 affix and Alacrity +20% Increased Attack Speed is lvl 43. if you are looking for 3/20 gloves, the earliest option would be to start buying leather and heavy gloves in act1 NM at lvl 58.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                To test, pick Gloves>leather gloves from base dropdowns and input 56 in the buyer level field. The result should show 60 in the shopped item affix level field.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Crafted item iLvl:</h4>
+                    <ul>
+                        <li>
+                            <p>Determines the chance of getting 4 random afixes; direct relation with crafter cLvl and base iLvl.</p>
+                        </li>
+                        <li>
+                            <p>If you need to increase it, increase either buyer (for base iLvl increase) or crafter cLvl (use a higher level character to buy or craft) or farm in high area levels (also for base iLvl increase)</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Crafted item aLvl, see some example combos bellow:</h4>
+                    <ul>
+                        <li>
+                            <p>For: high level affix and 71+ iLvl, base iLvl and crafter cLvl should be on the high side while qlvl on the low side (pick lower quality bases)</p> 
+                        </li>
+                        <li>
+                            <p>
+                                Qlvls for each item type (i.e. armor, boots, etc.) start at around 1 at the lowest item and usually end at 85 (can't buy elites though, can
+                                only drop in high area levels).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For a complete list of qlvls and affixes visit <a href="https://wiki.projectdiablo2.com/wiki/Item_Affixes" target="new">PD2 wiki affix page</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>For: 71+ iLvl and 40+ aLvl, mid to high qlvl, high buyer, mid crafter</p>
                         
-                    </li>
-                </ul>
-            </li>
-        </ol>
+                        </li>
+                        <li>
+                            <p>For: 51+ iLvl and 40+ aLvl, low to mid qlvl, highish buyer, low crafter</p>
+                            
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section class="grid-item">
+            <h2>How to use</h2>
+            <ol>
+                <li>
+                    <h4>Craft with dropped items scenario:</h4>
+                    <ul>
+                        <li>
+                            <p>Pop in the iLvl shown on item stats, pick base type for qlvl input according to your dropped item
+                        </li>
+                        <li>
+                            <p>
+                                Adjust the crafter's level accordingly until you get on the Output panel the closest crafted iLvl
+                                and aLvl that satisfy your needs.
+                            </p>
+                        </li>
+                    </ul>
+            
+                </li>
+                <li>
+                    <h4>Shop your base, then craft scenario:</h4>
+                    <ul>
+                        <li>
+                            <p>Pick the level of one of your high level characters for the buyer</p>
+                        </li>
+                        <li>
+                            <p>
+                                Depending on your requirements for aLvl (see above), either level a low-mid level as a crafter (in
+                                case you do not use the same character for
+                                both buying and crafting) or use same value as buyer.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Adjust base type until you get to the desired
+                                iLvl-aLvl combo.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                At the end of mixing these values around you should know where and what base to shop for, what level
+                                buyer and crafter for a certain affix level.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
     </div>
-    <div>
-        <h2>How to use</h2>
-        <ol>
-            <li>
-                <h4>Craft with dropped items scenario:</h4>
-                <ul>
-                    <li>
-                        <p>Pop in the iLvl shown on item stats, pick base type for qlvl input according to your dropped item
-                    </li>
-                    <li>
-                        <p>
-                            Adjust the crafter's level accordingly until you get on the Output panel the closest crafted iLvl and aLvl that satisfy your needs.
-                        </p>
-                    </li>
-                </ul>
-    
-            </li>
-            <li>
-                <h4>Shop your base, then craft scenario:</h4>
-                <ul>
-                    <li>
-                        <p>Pick the level of one of your high level characters for the buyer</p>
-                    </li>
-                    <li>
-                        <p>
-                            Depending on your requirements for aLvl (see above), either level a low-mid level as a crafter (in case you do not use the same character for
-                            both buying and crafting) or use same value as buyer.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Adjust base type until you get to the desired
-                            iLvl-aLvl combo.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            At the end of mixing these values around you should know where and what base to shop for, what level buyer and crafter for a certain affix level.
-                        </p>
-                    </li>
-                </ul>
-            </li>
-        </ol>
-    </div>
-   
-    
     
     <script src="calc.js"></script>
     <script src="search.js"></script>

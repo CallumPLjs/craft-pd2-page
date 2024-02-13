@@ -220,3 +220,21 @@ a {
 #affixTable td:nth-child(4) {
     width: 10%;
 }
+
+.explain {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    margin: 0px 0px;
+}
+
+.explain .grid-item {
+    padding: 7px;
+    margin: 3px;
+    border: 1px solid;
+    height: 450px;
+    max-height: 450px;
+    overflow-y: auto;
+    margin-bottom: 50px;
+}
