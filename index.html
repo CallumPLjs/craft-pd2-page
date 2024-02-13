@@ -185,9 +185,9 @@
                     </div><br><br>
                     <div id="pickWepDiv">
                         <h3>Weapons:</h3>
-                        <label for="pickwep">Select Weapon Type:</label>
+                        <label for="pickwep">Select Weapon:</label>
                         <select id="pickwep" name="pickwep">
-                            <option value="">Select Weapon Class</option>
+                            <option value="">Select Weapon</option>
                             <option value="claws">Claws</option>
                             <option value="wands">Wand</option>
                             <option value="orbs">Orb</option>
@@ -218,7 +218,7 @@
                 
                 </section>
 
-                <section class="grid-item section">
+                <section class="grid-item">
                     <!-- <label for="craftBase">Pick base source: </label>
                             <select id="craftBase" name="craftBase">
                                 <option value="">Select Item</option>
@@ -243,13 +243,13 @@
                     <label for="qlvl">QLVL: </label>
                     <!-- <input class="input_field" type="number" step="any" name="qlvl" id="qlvl" placeholder="qlvl" required> -->
                     <input type="text" name="qlvl" id="qlvl" value="0" readonly>
-                    <br><br>
+                    <br>
                     <h2>Drop option:</h2>
                     <label for="ilvl">Dropped Base iLevel:</label>
-                    <input class="input_field" type="number" id="ilvl" name="ilvl" required><br><br>
+                    <input class="input_field" type="number" id="ilvl" name="ilvl" required><br>
                     <h2>Shop option:</h2>
                     <label for="buyerLevel">Buyer Level:</label>
-                    <input class="input_field" type="number" id="bLevel" name="buyerLevel" required><br><br>
+                    <input class="input_field" type="number" id="bLevel" name="buyerLevel" required><br>
 
 
                     <label for="crafterLevel">Crafter Level:</label>
@@ -262,6 +262,32 @@
                     <div id="outputDisplay" style="margin-top: 2px;">
                         <h2>Output:</h2>
                         <p id="outputText"></p>
+                    </div>
+                </section>
+
+                <section class="grid-item">
+                    <div id="affixOutputDisplay" style="margin-top: 2px;">
+                        <h2>Affix Output:</h2>
+                        <div>
+                            <table id="affixTable">
+                                <thead>
+                                    <tr id="header2">
+                                        <th>Name</th>
+                                        <th>Property</th>
+                                        <th>aLvl</th>
+                                        <th>rlvl</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tab2">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </section>
 
