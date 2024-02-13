@@ -236,3 +236,37 @@ a {
     overflow-y: auto;
     margin-bottom: 50px;
 }
+
+.input_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input_container label {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+.input_field {
+    width: 50px;
+    text-align: right;
+    /* Adjust the width as needed */
+}
+
+.dropdown_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown_container label {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+.dropdown_field {
+    width: 140px;
+    /* text-align: right; */
+    /* Adjust the width as needed */
+}

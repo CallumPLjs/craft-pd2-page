@@ -83,10 +83,30 @@ function fillSecondDropdown(selection) {
         
         // Clear existing options or add template first option
         pickBase.innerHTML = '<option value="">Select Base</option>';
+        const qualityGroups = {};
 
         // Loop through the selected data and fill the options
         selectedData.forEach(item => {
             // Set the value and text of the option
+            // Create an option element
+            // const option = document.createElement("option");
+            // option.value = item.name;
+            // option.text = item.name;
+            // option.dataset.qlvl = item.qlvl;
+            // option.dataset.type = item.type;
+            // option.dataset.class = item.class;
+            // // Append the option to the second dropdown
+            // pickBase.appendChild(option);
+            
+            const quality = item.quality;
+    
+            // If the quality group doesn't exist, create it
+            if (!qualityGroups[quality]) {
+                qualityGroups[quality] = document.createElement("optgroup");
+                qualityGroups[quality].label = quality; // Set the label for the optgroup
+                pickBase.appendChild(qualityGroups[quality]); // Append the optgroup to the dropdown
+            }
+
             // Create an option element
             const option = document.createElement("option");
             option.value = item.name;
@@ -94,10 +114,11 @@ function fillSecondDropdown(selection) {
             option.dataset.qlvl = item.qlvl;
             option.dataset.type = item.type;
             option.dataset.class = item.class;
-            // Append the option to the second dropdown
-            pickBase.appendChild(option);
-        });
 
+            // Append the option to the corresponding quality group
+            qualityGroups[quality].appendChild(option);
+
+        });
         //reset other dropdown set
         pickwep.value = "";
         pickBasew.innerHTML = '<option value="">Select Base</option>';
@@ -142,19 +163,38 @@ function fillSecondDropdown2(selection) {
         
         // Clear existing options or add template first option
         pickBasew.innerHTML = '<option value="">Select Base</option>';
-
+         const qualityGroups = {};
         // Loop through the selected data and fill the options
         selectedData.forEach(item => {
-            // Set the value and text of the option
+            // // Set the value and text of the option
+            // // Create an option element
+            // const option = document.createElement("option");
+            // // const qlvl = document.getElementById("qlvl");
+            
+            // option.value = item.name;
+            // option.text = item.name;
+            // option.dataset.qlvl = item.qlvl;
+            // // Append the option to the second dropdown
+            // pickBasew.appendChild(option);
+            const quality = item.quality;
+    
+            // If the quality group doesn't exist, create it
+            if (!qualityGroups[quality]) {
+                qualityGroups[quality] = document.createElement("optgroup");
+                qualityGroups[quality].label = quality; // Set the label for the optgroup
+                pickBasew.appendChild(qualityGroups[quality]); // Append the optgroup to the dropdown
+            }
+
             // Create an option element
             const option = document.createElement("option");
-            // const qlvl = document.getElementById("qlvl");
-            
             option.value = item.name;
             option.text = item.name;
             option.dataset.qlvl = item.qlvl;
-            // Append the option to the second dropdown
-            pickBasew.appendChild(option);
+            option.dataset.type = item.type;
+            option.dataset.class = item.class;
+
+            // Append the option to the corresponding quality group
+            qualityGroups[quality].appendChild(option);
         });
         //reset other dropdown set
         pickItem.value = "";

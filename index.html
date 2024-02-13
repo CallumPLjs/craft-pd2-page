@@ -158,35 +158,37 @@
                     <h2>Item base selection:</h2>
                     <div>
                         <h3>Armors</h3>
-                        <label for="pickItem">Pick Base:</label>
-                        <select id="pickItem" name="pickItem">
-                            <option value="">Select Item</option>
-                            <option value="amulets">Amulet</option>
-                            <option value="rings">Ring</option>
-                            <option value="head">Hemets</option>
-                            <option value="circlet">Circlets</option>
-                            <option value="druid helm">Druid helms</option>
-                            <option value="barbarian helm">Barbarian helms</option>
-                            <option value="chest">Armors</option>
-                            <option value="gloves">Gloves</option>
-                            <option value="belt">Belts</option>
-                            <option value="boots">Boots</option>
-                            <option value="shield">Shields</option>
-                            <option value="paladin shield">Paladin shields</option>
-                            <option value="necromancer shield">Necromancer shields</option>
-                        </select>
+                        <div class="dropdown_container">
+                            <label for="pickItem">Pick Base:</label>
+                            <select class="dropdown_field" id="pickItem" name="pickItem">
+                                <option value="">Select Item</option>
+                                <option value="amulets">Amulet</option>
+                                <option value="rings">Ring</option>
+                                <option value="head">Helmets</option>
+                                <option value="circlet">Circlets</option>
+                                <option value="druid helm">Druid helms</option>
+                                <option value="barbarian helm">Barbarian helms</option>
+                                <option value="chest">Armors</option>
+                                <option value="gloves">Gloves</option>
+                                <option value="belt">Belts</option>
+                                <option value="boots">Boots</option>
+                                <option value="shield">Shields</option>
+                                <option value="paladin shield">Paladin shields</option>
+                                <option value="necromancer shield">Necromancer shields</option>
+                            </select>
+                        </div>
                     </div><br>
                 
-                    <div id="pickBaseDiv">
+                    <div class="dropdown_container" id="pickBaseDiv">
                         <label for="pickBase">Select Base:</label>
-                        <select id="pickBase" name="pickBase">
+                        <select class="dropdown_field" id="pickBase" name="pickBase">
                 
                         </select>
-                    </div><br><br>
-                    <div id="pickWepDiv">
-                        <h3>Weapons:</h3>
+                    </div><br>
+                    <h3>Weapons:</h3>
+                    <div class="dropdown_container" id="pickWepDiv">
                         <label for="pickwep">Select Weapon:</label>
-                        <select id="pickwep" name="pickwep">
+                        <select class="dropdown_field" id="pickwep" name="pickwep">
                             <option value="">Select Weapon</option>
                             <option value="claws">Claws</option>
                             <option value="wands">Wand</option>
@@ -209,10 +211,9 @@
                             <option value="xbows">X-Bows</option>
                         </select>
                     </div><br>
-                    <div id="pickBaseDivw">
+                    <div class="dropdown_container" id="pickBaseDivw">
                         <label for="pickBasew">Select Weapon Base:</label>
-                        <select id="pickBasew" name="pickBasew">
-                
+                        <select class="dropdown_field" id="pickBasew" name="pickBasew">
                         </select>
                     </div>
                 
@@ -240,20 +241,26 @@
                                 
                             </select><br> -->
                     <h2>Autofilled by fields on the left:</h2>
-                    <label for="qlvl">QLVL: </label>
-                    <!-- <input class="input_field" type="number" step="any" name="qlvl" id="qlvl" placeholder="qlvl" required> -->
-                    <input type="text" name="qlvl" id="qlvl" value="0" readonly>
-                    <br>
+                    <div class="input_container">
+                        <label for="qlvl">QLVL: </label>
+                        <!-- <input class="input_field" type="number" step="any" name="qlvl" id="qlvl" placeholder="qlvl" required> -->
+                        <input class="input_field" type="text" name="qlvl" id="qlvl" value="0" readonly>
+                    </div>
                     <h2>Drop option:</h2>
-                    <label for="ilvl">Dropped Base iLevel:</label>
-                    <input class="input_field" type="number" id="ilvl" name="ilvl" required><br>
+                    <div class="input_container">
+                        <label for="ilvl">Dropped Base iLevel:</label>
+                        <input class="input_field" type="number" id="ilvl" name="ilvl" required>
+                    </div>
                     <h2>Shop option:</h2>
-                    <label for="buyerLevel">Buyer Level:</label>
-                    <input class="input_field" type="number" id="bLevel" name="buyerLevel" required><br>
+                    <div class="input_container">
+                        <label for="buyerLevel">Buyer Level:</label>
+                        <input class="input_field" type="number" id="bLevel" name="buyerLevel" required>
+                    </div>
 
-
-                    <label for="crafterLevel">Crafter Level:</label>
-                    <input class="input_field" type="number" id="cLevel" name="crafterLevel" required><br>
+                    <div class="input_container">
+                        <label for="crafterLevel">Crafter Level:</label>
+                        <input class="input_field" type="number" id="cLevel" name="crafterLevel" required>
+                    </div>
                 </section>
 
                 <section class="grid-item">
