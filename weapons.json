@@ -4,73 +4,109 @@
             "name" : "wand",
             "qlvl" : 2,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "yew wand",
             "qlvl" : 12,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "bone wand",
             "qlvl" : 18,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "grim wand",
             "qlvl" : 26,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "burnt wand",
             "qlvl" : 31,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "petrified wand",
             "qlvl" : 38,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "tomb wand",
             "qlvl" : 43,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "grave wand",
             "qlvl" : 49,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "polished wand",
             "qlvl" : 55,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ghost wand",
             "qlvl" : 65,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "liched wand",
             "qlvl" : 75,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "unearthed wand",
             "qlvl" : 86,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "wand",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "staves" : [
@@ -78,91 +114,136 @@
             "name" : "short staff",
             "qlvl" : 1,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "long staff",
             "qlvl" : 8,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "gnarled staff",
             "qlvl" : 12,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "battle staff",
             "qlvl" : 17,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war staff",
             "qlvl" : 24,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "jo staff",
             "qlvl" : 30,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "quarterstaff",
             "qlvl" : 35,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cedar staff",
             "qlvl" : 38,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "gothic staff",
             "qlvl" : 30,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "rune staff",
             "qlvl" : 30,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "walking stick",
             "qlvl" : 58,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "stalagmite",
             "qlvl" : 66,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "elder staff",
             "qlvl" : 74,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "shillelagh",
             "qlvl" : 83,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "archon staff",
             "qlvl" : 85,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "staff",
+            "class" : "none",
+            "throw" : false
         }
 
     ],
@@ -171,91 +252,136 @@
             "name" : "eagle orb",
             "qlvl" : 1,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "sacred globe",
             "qlvl" : 8,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "smoked sphere",
             "qlvl" : 12,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "clasped orb",
             "qlvl" : 17,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "jared's stone",
             "qlvl" : 24,
             "maglvl" : 1,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "glowing orb",
             "qlvl" : 32,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "crystalline globe",
             "qlvl" : 37,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "cloudy sphere",
             "qlvl" : 41,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "sparkling ball",
             "qlvl" : 46,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "swirling crystal",
             "qlvl" : 50,
             "maglvl" : 1,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "heavenly stone",
             "qlvl" : 59,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "eldritch orb",
             "qlvl" : 67,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "demon heart",
             "qlvl" : 75,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "vortex orb",
             "qlvl" : 84,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         },
         {
             "name" : "dimensional shard",
             "qlvl" : 85,
             "maglvl" : 1,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "orb",
+            "class" : "sorceress",
+            "throw" : false
         }
     ],
     "polearms" : [
@@ -263,109 +389,163 @@
             "name" : "bardiche",
             "qlvl" : 5,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "voulge",
             "qlvl" : 11,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "scythe",
             "qlvl" : 15,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "poleaxe",
             "qlvl" : 21,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "halberd",
             "qlvl" : 29,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war scythe",
             "qlvl" : 34,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "lochaber axe",
             "qlvl" : 33,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "bill",
             "qlvl" : 37,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "battle scythe",
             "qlvl" : 40,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "partizan",
             "qlvl" : 35,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "bec-de-corbin",
             "qlvl" : 51,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "grim scythe",
             "qlvl" : 55,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ogre axe",
             "qlvl" : 60,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "colossus voulge",
             "qlvl" : 64,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "thresher",
             "qlvl" : 71,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cryptic axe",
             "qlvl" : 79,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "great poleaxe",
             "qlvl" : 84,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "giant thresher",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "polearm",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "spears" : [
@@ -373,91 +553,136 @@
             "name" : "spear",
             "qlvl" : 5,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "trident",
             "qlvl" : 9,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "brandistock",
             "qlvl" : 16,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "spetum",
             "qlvl" : 20,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "pike",
             "qlvl" : 24,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war spear",
             "qlvl" : 33,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "fuscina",
             "qlvl" : 36,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war fork",
             "qlvl" : 41,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "yari",
             "qlvl" : 44,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "lance",
             "qlvl" : 47,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "hyperion spear",
             "qlvl" : 58,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "stygian pike",
             "qlvl" : 66,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "mancatcher",
             "qlvl" : 73,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ghost spear",
             "qlvl" : 83,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war pike",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "spear",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "javelins" : [
@@ -465,91 +690,136 @@
             "name" : "javelin",
             "qlvl" : 1,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "pilum",
             "qlvl" : 10,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "short spear",
             "qlvl" : 15,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "glaive",
             "qlvl" : 23,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "throwing spear",
             "qlvl" : 29,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "war javelin",
             "qlvl" : 30,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "great pilum",
             "qlvl" : 37,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "simbilan",
             "qlvl" : 40,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "spiculum",
             "qlvl" : 46,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "harpoon",
             "qlvl" : 51,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "hyperion javelin",
             "qlvl" : 54,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "stygian pilum",
             "qlvl" : 62,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "balrog spear",
             "qlvl" : 71,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "ghost glaive",
             "qlvl" : 79,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "winged harpoon",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "javelin",
+            "class" : "none",
+            "throw" : true
         }
     ],
     "throw" : [
@@ -557,73 +827,109 @@
             "name" : "throwing knife",
             "qlvl" : 2,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "throw_dagger",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "throwing axe",
             "qlvl" : 7,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "throw_axe",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "balanced knife",
             "qlvl" : 13,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "throw_dagger",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "balanced axe",
             "qlvl" : 17,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "throw_axe",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "battle dart",
             "qlvl" : 31,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "throw_dagger",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "francisca",
             "qlvl" : 34,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "throw_axe",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "war dart",
             "qlvl" : 39,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "throw_dagger",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "hurlbat",
             "qlvl" : 41,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "throw_axe",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "flying knife",
             "qlvl" : 64,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "throw_dagger",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "flying axe",
             "qlvl" : 56,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "throw_axe",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "winged knife",
             "qlvl" : 77,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "throw_dagger",
+            "class" : "none",
+            "throw" : true
         },
         {
             "name" : "winged axe",
             "qlvl" : 80,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "throw_axe",
+            "class" : "none",
+            "throw" : true
         }
     ],
     "daggers" : [
@@ -631,73 +937,109 @@
             "name" : "dagger",
             "qlvl" : 3,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "dirk",
             "qlvl" : 9,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "kris",
             "qlvl" : 17,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "blade",
             "qlvl" : 23,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "poignard",
             "qlvl" : 31,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "rondel",
             "qlvl" : 36,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cinquedeas",
             "qlvl" : 42,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "stiletto",
             "qlvl" : 46,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "bone knife",
             "qlvl" : 58,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "mithril point",
             "qlvl" : 70,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "fanged knife",
             "qlvl" : 83,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "legend spike",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "dagger",
+            "class" : "none",
+            "throw" : false
         }
     ], 
     "swords1" : [
@@ -705,145 +1047,217 @@
             "name" : "short sword",
             "qlvl" : 1,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "scimitar",
             "qlvl" : 5,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "sabre",
             "qlvl" : 8,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "falchion",
             "qlvl" : 11,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "crystal sword",
             "qlvl" : 11,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "broad sword",
             "qlvl" : 15,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "long sword",
             "qlvl" : 20,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war sword",
             "qlvl" : 27,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "gladius",
             "qlvl" : 30,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cutlass",
             "qlvl" : 43,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "samshir",
             "qlvl" : 35,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "tulwar",
             "qlvl" : 37,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "dimensional blade",
             "qlvl" : 37,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "battle sword",
             "qlvl" : 40,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "rune sword",
             "qlvl" : 44,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ancient sword",
             "qlvl" : 49,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "falcata",
             "qlvl" : 56,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "Athagan",
             "qlvl" : 61,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "elegant blade",
             "qlvl" : 63,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "hydra edge",
             "qlvl" : 69,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "phase blade",
             "qlvl" : 73,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "conquest sword",
             "qlvl" : 78,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cryptic sword",
             "qlvl" : 82,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "mythical sword",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "swords2" : [
@@ -851,109 +1265,163 @@
             "name" : "two-handed sword",
             "qlvl" : 10,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "claymore",
             "qlvl" : 17,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "giant sword",
             "qlvl" : 21,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "bastard sword",
             "qlvl" : 24,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "flamberge",
             "qlvl" : 27,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "great sword",
             "qlvl" : 33,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "espandon",
             "qlvl" : 37,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "dacian falx",
             "qlvl" : 42,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "tusk sword",
             "qlvl" : 45,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "gothic sword",
             "qlvl" : 48,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "zweihander",
             "qlvl" : 49,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "executioner's sword",
             "qlvl" : 54,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "legend sword",
             "qlvl" : 59,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "highland blade",
             "qlvl" : 66,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "balrog blade",
             "qlvl" : 56,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "champion sword",
             "qlvl" : 77,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "colossus sword",
             "qlvl" : 80,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "colossus blade",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "sword",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "axes1" : [
@@ -961,91 +1429,136 @@
             "name" : "hand axe",
             "qlvl" : 3,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "axe",
             "qlvl" : 7,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "double axe",
             "qlvl" : 13,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "military pick",
             "qlvl" : 19,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war axe",
             "qlvl" : 25,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "hatchet",
             "qlvl" : 31,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cleaver",
             "qlvl" : 34,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "twin axe",
             "qlvl" : 39,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "crowbill",
             "qlvl" : 43,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "naga",
             "qlvl" : 48,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "tomahawk",
             "qlvl" : 54,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "small crescent",
             "qlvl" : 61,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ettin axe",
             "qlvl" : 70,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war spike",
             "qlvl" : 79,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "berseker axe",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         }
         
     ],
@@ -1054,91 +1567,136 @@
             "name" : "large axe",
             "qlvl" : 6,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "broad axe",
             "qlvl" : 12,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "battle axe",
             "qlvl" : 17,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "great axe",
             "qlvl" : 23,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "giant axe",
             "qlvl" : 27,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "nilitary axe",
             "qlvl" : 34,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "bearded axe",
             "qlvl" : 38,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "tabar",
             "qlvl" : 42,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "gothic axe",
             "qlvl" : 46,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ancient axe",
             "qlvl" : 51,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "feral axe",
             "qlvl" : 57,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "silver-edged axe",
             "qlvl" : 65,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "decapitator",
             "qlvl" : 73,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "champion axe",
             "qlvl" : 82,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "glorious axe",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "axe",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "maces1" : [
@@ -1146,109 +1704,163 @@
             "name" : "club",
             "qlvl" : 1,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "club",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "spiked club",
             "qlvl" : 4,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "club",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "mace",
             "qlvl" : 8,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "morning star",
             "qlvl" : 13,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "flail",
             "qlvl" : 19,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war hammer",
             "qlvl" : 25,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cudgel",
             "qlvl" : 30,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "club",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "barbed club",
             "qlvl" : 32,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "club",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "flanged mace",
             "qlvl" : 35,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "jagged star",
             "qlvl" : 39,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "knout",
             "qlvl" : 43,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "battle hammer",
             "qlvl" : 48,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "truncheon",
             "qlvl" : 52,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "club",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "tyrant club",
             "qlvl" : 57,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "club",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "reinforced mace",
             "qlvl" : 63,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "devil star",
             "qlvl" : 70,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "scourge",
             "qlvl" : 76,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "tipped_mace",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "legendary mallet",
             "qlvl" : 82,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "maces2" : [
@@ -1256,37 +1868,55 @@
             "name" : "maul",
             "qlvl" : 21,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "great maul",
             "qlvl" : 32,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war club",
             "qlvl" : 45,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "martel de fer",
             "qlvl" : 53,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ogre maul",
             "qlvl" : 69,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "thunder maul",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "hammer",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "scepters" : [
@@ -1294,55 +1924,82 @@
             "name" : "scepter",
             "qlvl" : 3,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "grand scepter",
             "qlvl" : 15,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "war scepter",
             "qlvl" : 21,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "rune scepter",
             "qlvl" : 31,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "holy water sprinkler",
             "qlvl" : 40,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "divine scepter",
             "qlvl" : 45,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "mighty scepter",
             "qlvl" : 62,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "seraph rod",
             "qlvl" : 76,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "caduceus",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "scepter",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "bows" : [
@@ -1350,145 +2007,217 @@
             "name" : "short bow",
             "qlvl" : 1,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "hunter's bow",
             "qlvl" : 5,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "long bow",
             "qlvl" : 8,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "composite bow",
             "qlvl" : 12,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "short battle bow",
             "qlvl" : 18,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "long battle bow",
             "qlvl" : 23,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "short war bow",
             "qlvl" : 27,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "long war bow",
             "qlvl" : 31,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "edge bow",
             "qlvl" : 30,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "razor bow",
             "qlvl" : 33,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "cedar bow",
             "qlvl" : 35,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "double bow",
             "qlvl" : 39,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "short siege bow",
             "qlvl" : 43,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "large siege bow",
             "qlvl" : 46,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "rune bow",
             "qlvl" : 49,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "gothic bow",
             "qlvl" : 52,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "spider bow",
             "qlvl" : 55,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "blade bow",
             "qlvl" : 60,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "shadow bow",
             "qlvl" : 63,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "great bow",
             "qlvl" : 68,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "diamond bow",
             "qlvl" : 72,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "crusader bow",
             "qlvl" : 77,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ward bow",
             "qlvl" : 80,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "hydra bow",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "amazon weapons" : [
@@ -1496,91 +2225,136 @@
             "name" : "stag bow",
             "qlvl" : 18,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "reflex bow",
             "qlvl" : 27,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "bow",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "maiden spear",
             "qlvl" : 18,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "spear",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "maiden pike",
             "qlvl" : 27,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "spear",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "maiden javelin",
             "qlvl" : 23,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "javelin",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "ashwood bow",
             "qlvl" : 39,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "ceremonial bow",
             "qlvl" : 47,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "bow",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "ceremonial spear",
             "qlvl" : 43,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "spear",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "ceremonial pike",
             "qlvl" : 51,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "spear",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "ceremonial javelin",
             "qlvl" : 35,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "javelin",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "matriarchal bow",
             "qlvl" : 53,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "grand matron bow",
             "qlvl" : 78,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "bow",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "matriarchal spear",
             "qlvl" : 61,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "spear",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "matriarchal pike",
             "qlvl" : 81,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "spear",
+            "class" : "amazon",
+            "throw" : false
         },
         {
             "name" : "matriarchal javelin",
             "qlvl" : 65,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "javelin",
+            "class" : "amazon",
+            "throw" : false
         }
     ],
     "xbows" : [
@@ -1588,73 +2362,109 @@
             "name" : "light crossbow",
             "qlvl" : 6,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "crossbow",
             "qlvl" : 15,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "heavy crossbow",
             "qlvl" : 24,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "repeating crossbow",
             "qlvl" : 33,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "arbalest",
             "qlvl" : 34,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "siege crossbow",
             "qlvl" : 40,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "ballista",
             "qlvl" : 47,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "chu-ko-nu",
             "qlvl" : 54,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "pellet bow",
             "qlvl" : 57,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "gorgon crossbow",
             "qlvl" : 67,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "colossus crossbow",
             "qlvl" : 75,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         },
         {
             "name" : "demon crossbow",
             "qlvl" : 84,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "crossbow",
+            "class" : "none",
+            "throw" : false
         }
     ],
     "claws" : [
@@ -1662,127 +2472,231 @@
             "name" : "katar",
             "qlvl" : 1,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "wrist blade",
             "qlvl" : 9,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "hatchet hands",
             "qlvl" : 12,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "cestus",
             "qlvl" : 15,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "claws",
             "qlvl" : 18,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "blade talons",
             "qlvl" : 21,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "scissors katar",
             "qlvl" : 24,
             "maglvl" : 0,
-            "quality" : "normal"
+            "quality" : "normal",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "quhab",
             "qlvl" : 28,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "wrist spike",
             "qlvl" : 32,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "fascia",
             "qlvl" : 36,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "hand scythe",
             "qlvl" : 41,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "greater claws",
             "qlvl" : 45,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "greater talons",
             "qlvl" : 50,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "scissors quhab",
             "qlvl" : 54,
             "maglvl" : 0,
-            "quality" : "exceptional"
+            "quality" : "exceptional",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "suwayyah",
             "qlvl" : 59,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "wrist sword",
             "qlvl" : 62,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "war fist",
             "qlvl" : 68,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "battle cestus",
             "qlvl" : 73,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "feral claws",
             "qlvl" : 78,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "runic talons",
             "qlvl" : 81,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
         },
         {
             "name" : "scissors suwayyah",
             "qlvl" : 85,
             "maglvl" : 0,
-            "quality" : "elite"
+            "quality" : "elite",
+            "type" : "claw",
+            "class" : "assassin",
+            "throw" : false
+        }
+    ],
+    "groups" : [
+        {
+            "rods" : ["staff", "wand", "scepter"]
+        },
+        {
+            "clubs" : ["club", "tipped mace", "hammer"]
+        },
+        {
+            "blunt" : ["staff", "wand", "scepter","club", "tipped mace", "hammer"]
+        },
+        {
+            "throw" : ["throw_dagger", "throw_axe", "javelin"]
+        },
+        {
+            "melee" : ["sword", "axe", "polearm", "spear", "staff", "wand", "scepter","club", "tipped mace", "hammer", "dagger", "claw", "throw_dagger", "throw_axe", "javelin"]
+        },
+        {
+            "non-throw" : ["sword", "axe", "polearm", "spear", "staff", "wand", "scepter","club", "tipped mace", "hammer", "dagger", "claw", "bow", "crossbow"]
+        },
+        {
+            "orb" : "orb"
+        },
+        {
+            "quiver" : "quiver"
+        },
+        {
+            "claw" : "claw"
+        },
+        {
+            "missile" : ["bow", "crossbow"]
+        },
+        {
+            "physical" : ["sword", "axe", "polearm", "spear", "scepter", "club", "tipped mace", "hammer", "dagger", "claw", "throw_dagger", "throw_axe", "javelin", "bow", "crossbow"]
+        },
+        {
+            "physical_staff" : ["sword", "axe", "polearm", "spear", "scepter", "club", "staff", "tipped mace", "hammer", "dagger", "claw", "throw_dagger", "throw_axe", "javelin", "bow", "crossbow"]
+        },
+        {
+            "non-physical" : ["orb", "staff", "wand"]
         }
     ]
 }

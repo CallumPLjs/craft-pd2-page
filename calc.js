@@ -9,35 +9,14 @@ let craftSource = document.getElementById("craftBase");
 let buyerLevel = document.getElementById("bLevel");
 let crafterLevel = document.getElementById("cLevel");
 let qlvlF = document.getElementById("qlvl");
+let selectionParams = {
+    type : "",
+    class : ""
+}
+// let paramType = selectionParams.type;
+// let paramClass = selectionParams.class;
 
 
-// function hideElement(e) {
-//   e.classList.add('hidden');
-// }
-
-// function showBuyer() {
-     
-//     if (craftSource.value === "drop") {
-//         // buyerLevel.classList.add("hidden");
-//         buyerLevel.style.display = "none";
-//     } else {
-//         // buyerLevel.classList.remove("hidden");
-//         buyerLevel.style.display = "block";
-//     }
-// }   
-// function showDropdown() {
-     
-//     if ((pickItem.value === "") || (pickItem.value === "amulet") || (pickItem.value === "ring")) {
-//         pickBase.style.display = "none";
-//     } else {
-//         pickBase.style.display = "block";
-//     }
-//     if (pickItem.value === "weaponClass") {
-//         pickwep.style.display = "block";
-//     } else {
-//         pickwep.style.display = "none";
-//     }
-// }
 
 function generateALvl(item_iLvl, qLvl) {
     let itemALvl = 0;
@@ -110,31 +89,38 @@ function fillSecondDropdown(selection) {
             // Set the value and text of the option
             // Create an option element
             const option = document.createElement("option");
-            
-            
             option.value = item.name;
             option.text = item.name;
             option.dataset.qlvl = item.qlvl;
+            option.dataset.type = item.type;
+            option.dataset.class = item.class;
             // Append the option to the second dropdown
             pickBase.appendChild(option);
+        });
 
-            //reset other dropdown set
-            pickwep.value = "";
-            pickBasew.innerHTML = '<option value="">Select Base</option>';
-            qlvlF.value = 0;
+        //reset other dropdown set
+        pickwep.value = "";
+        pickBasew.innerHTML = '<option value="">Select Base</option>';
+        qlvlF.value = 0;
 
-            //get second dropdown option and set qlvl
-            pickBase.addEventListener("change", function () {
-                // Retrieve the selected option
-                const selectedOption = this.options[this.selectedIndex];
+        //get second dropdown option and set qlvl
+        pickBase.addEventListener("change", function () {
+            // Retrieve the selected option
+            const selectedOption = this.options[this.selectedIndex];
 
-                // Retrieve the value of the "qlvl" property
-                const qlvlValue = parseFloat(selectedOption.dataset.qlvl);
-
-                // Push the value into the form field
-                qlvlF.value = qlvlValue;
-            });
-
+            // Retrieve the value of the "qlvl" property
+            const qlvlValue = parseFloat(selectedOption.dataset.qlvl);
+            // console.log("qlvlValue:", qlvlValue);
+            const typeValue = selectedOption.dataset.type;
+            // console.log("typeValue:", typeValue);
+            const classValue = selectedOption.dataset.class;
+            // console.log("classValue:", classValue);
+            
+            // Push the value into the form field
+            qlvlF.value = qlvlValue;
+            selectionParams.type = typeValue;
+            selectionParams.class = classValue;
+            // console.log(selectionParams);
         });
     })
     .catch(error => console.error('Error fetching data:', error));
@@ -162,31 +148,30 @@ function fillSecondDropdown2(selection) {
             // Set the value and text of the option
             // Create an option element
             const option = document.createElement("option");
-            const qlvl = document.getElementById("qlvl");
+            // const qlvl = document.getElementById("qlvl");
             
             option.value = item.name;
             option.text = item.name;
             option.dataset.qlvl = item.qlvl;
             // Append the option to the second dropdown
             pickBasew.appendChild(option);
+        });
+        //reset other dropdown set
+        pickItem.value = "";
+        pickBase.innerHTML = '<option value="">Select Base</option>';
+        qlvlF.value = 0;
+        
+        //get second dropdown option and set qlvl
+        pickBasew.addEventListener("change", function () {
+            // Retrieve the selected option
+            const selectedOption = this.options[this.selectedIndex];
 
-            //reset other dropdown set
-            pickItem.value = "";
-            pickBase.innerHTML = '<option value="">Select Base</option>';
-            qlvlF.value = 0;
+            // Retrieve the value of the "qlvl" property
+            const qlvlValue = parseFloat(selectedOption.dataset.qlvl);
+            console.log("qlvlValue:", qlvlValue);
             
-            //get second dropdown option and set qlvl
-            pickBasew.addEventListener("change", function () {
-                // Retrieve the selected option
-                const selectedOption = this.options[this.selectedIndex];
-
-                // Retrieve the value of the "qlvl" property
-                const qlvlValue = parseFloat(selectedOption.dataset.qlvl);
-                
-                // Push the value into the form field
-                qlvlF.value = qlvlValue;
-            });
-
+            // Push the value into the form field
+            qlvlF.value = qlvlValue;
         });
     })
     .catch(error => console.error('Error fetching data:', error));
@@ -201,7 +186,33 @@ pickwep.addEventListener("change", function () {
 // Initial fill when the page loads
 // fillSecondDropdown(document.getElementById("firstDropdown").value);
 
+// function hideElement(e) {
+//   e.classList.add('hidden');
+// }
 
+// function showBuyer() {
+     
+//     if (craftSource.value === "drop") {
+//         // buyerLevel.classList.add("hidden");
+//         buyerLevel.style.display = "none";
+//     } else {
+//         // buyerLevel.classList.remove("hidden");
+//         buyerLevel.style.display = "block";
+//     }
+// }   
+// function showDropdown() {
+     
+//     if ((pickItem.value === "") || (pickItem.value === "amulet") || (pickItem.value === "ring")) {
+//         pickBase.style.display = "none";
+//     } else {
+//         pickBase.style.display = "block";
+//     }
+//     if (pickItem.value === "weaponClass") {
+//         pickwep.style.display = "block";
+//     } else {
+//         pickwep.style.display = "none";
+//     }
+// }
 
 /*
 First step is to hardcode values, create formulas and find the crafter's level to achieve certain ilvls, based on base type and alvl.

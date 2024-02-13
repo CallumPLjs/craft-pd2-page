@@ -1,0 +1,255 @@
+{
+    "groups" : [
+        {
+            "armor" : [
+                {"type": "helm", "class": "none"},
+                {"type": "helm", "class": "druid"},
+                {"type": "helm", "class": "barbarian"}, 
+                {"type": "chest", "class": "none"},
+                {"type": "belt", "class": "none"},
+                {"type": "gloves", "class": "none"},
+                {"type": "boots", "class": "none"},
+                {"type": "circlet", "class": "none"},
+                {"type": "shield", "class": "none"},
+                {"type": "helm", "class": "paladin"},
+                {"type": "helm", "class": "necromancer"}
+            ]
+        },
+        {
+            "rods" : [
+                {"type": "staff", "class": "none"},
+                {"type": "wand", "class": "none"},
+                {"type": "scepter", "class": "none"}
+            ]
+        },
+        {
+            "clubs" : [
+                {"type": "club", "class": "none"},
+                {"type": "tipped_mace", "class": "none"},
+                {"type": "hammer", "class": "none"}
+            ]
+        },
+        {
+            "blunt" : [
+                {"type": "staff", "class": "none"},
+                {"type": "wand", "class": "none"},
+                {"type": "scepter", "class": "none"},
+                {"type": "club", "class": "none"},
+                {"type": "tipped_mace", "class": "none"},
+                {"type": "hammer", "class": "none"}
+            ]
+        },
+        {
+            "throw" : [
+                {"type": "throw_dagger", "class": "none"},
+                {"type": "throw_axe", "class": "none"},
+                {"type": "javelin", "class": "none"}
+            ]
+        },
+        {
+            "melee" : [
+                {"type": "staff", "class": "none"},
+                {"type": "wand", "class": "none"},
+                {"type": "scepter", "class": "none"},
+                {"type": "club", "class": "none"},
+                {"type": "tipped_mace", "class": "none"},
+                {"type": "hammer", "class": "none"},
+                {"type": "throw_dagger", "class": "none"},
+                {"type": "throw_axe", "class": "none"},
+                {"type": "javelin", "class": "none"},
+                {"type": "javelin", "class": "amazon"},
+                {"type": "sword", "class": "none"},
+                {"type": "axe", "class": "none"},
+                {"type": "polearm", "class": "none"},
+                {"type": "spear", "class": "none"},
+                {"type": "spear", "class": "amazon"},
+                {"type": "dagger", "class": "none"},
+                {"type": "claw", "class": "assassin"}
+            ]
+        },
+        {
+            "missile" : [
+                {"type": "bow", "class": "none"},
+                {"type": "crossbow", "class": "none"},
+                {"type": "bow", "class": "amazon"}
+            ]
+        },
+        {
+            "non-throw" : [
+                {"type": "staff", "class": "none"},
+                {"type": "wand", "class": "none"},
+                {"type": "scepter", "class": "none"},
+                {"type": "club", "class": "none"},
+                {"type": "tipped_mace", "class": "none"},
+                {"type": "hammer", "class": "none"},
+                {"type": "sword", "class": "none"},
+                {"type": "axe", "class": "none"},
+                {"type": "polearm", "class": "none"},
+                {"type": "spear", "class": "none"},
+                {"type": "spear", "class": "amazon"},
+                {"type": "dagger", "class": "none"},
+                {"type": "claw", "class": "assassin"},
+                {"type": "bow", "class": "none"},
+                {"type": "crossbow", "class": "none"},
+                {"type": "bow", "class": "amazon"}
+            ]
+        },
+        {
+            "orb" : {"type": "orb", "class": "sorceress"}
+        },
+        {
+            "quiver" : {"type": "quiver", "class": "none"}
+        },
+        {
+            "claw" : {"type": "claw", "class": "assassin"}
+        },
+        {
+            "physical" : [
+                {"type": "scepter", "class": "none"},
+                {"type": "club", "class": "none"},
+                {"type": "tipped_mace", "class": "none"},
+                {"type": "hammer", "class": "none"},
+                {"type": "throw_dagger", "class": "none"},
+                {"type": "throw_axe", "class": "none"},
+                {"type": "javelin", "class": "none"},
+                {"type": "javelin", "class": "amazon"},
+                {"type": "sword", "class": "none"},
+                {"type": "axe", "class": "none"},
+                {"type": "polearm", "class": "none"},
+                {"type": "spear", "class": "none"},
+                {"type": "spear", "class": "amazon"},
+                {"type": "dagger", "class": "none"},
+                {"type": "claw", "class": "assassin"},
+                {"type": "bow", "class": "none"},
+                {"type": "crossbow", "class": "none"},
+                {"type": "bow", "class": "amazon"}
+            ]
+        },
+        {
+            "physical_staff" : [
+                {"type": "staff", "class": "none"},
+                {"type": "scepter", "class": "none"},
+                {"type": "club", "class": "none"},
+                {"type": "tipped_mace", "class": "none"},
+                {"type": "hammer", "class": "none"},
+                {"type": "throw_dagger", "class": "none"},
+                {"type": "throw_axe", "class": "none"},
+                {"type": "javelin", "class": "none"},
+                {"type": "javelin", "class": "amazon"},
+                {"type": "sword", "class": "none"},
+                {"type": "axe", "class": "none"},
+                {"type": "polearm", "class": "none"},
+                {"type": "spear", "class": "none"},
+                {"type": "spear", "class": "amazon"},
+                {"type": "dagger", "class": "none"},
+                {"type": "claw", "class": "assassin"},
+                {"type": "bow", "class": "none"},
+                {"type": "crossbow", "class": "none"},
+                {"type": "bow", "class": "amazon"}
+            ]
+        },
+        {
+            "non-physical" : [
+                {"type": "staff", "class": "none"},
+                {"type": "wand", "class": "none"},
+                {"type": "orb", "class": "sorceress"}
+            ]
+        }
+    ],
+    "prefixes" : [
+        {
+            "name" : "sturdy",
+            "property" : "+[10-20]% Enhanced Defense",
+            "items" : [{"type": "helm", "class": "none"},
+                {"type": "helm", "class": "druid"},
+                {"type": "helm", "class": "barbarian"}, 
+                {"type": "chest", "class": "none"},
+                {"type": "belt", "class": "none"},
+                {"type": "gloves", "class": "none"},
+                {"type": "boots", "class": "none"},
+                {"type": "circlet", "class": "none"},
+                {"type": "shield", "class": "none"},
+                {"type": "helm", "class": "paladin"},
+                {"type": "helm", "class": "necromancer"}],
+            "min_lvl" : 1,
+            "max_lvl" : 41,
+            "color" : "yellow",
+            "rlvl" : 1
+        },
+        {
+            "name" : "sturdy",
+            "property" : "+[21-30]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 4,
+            "max_lvl" : 44,
+            "color" : "yellow",
+            "rlvl" : 3
+        },
+        {
+            "name" : "strong",
+            "property" : "+[31-40]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 9,
+            "max_lvl" : 49,
+            "color" : "yellow",
+            "rlvl" : 6
+        },
+        {
+            "name" : "glorious",
+            "property" : "+[41-50]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 19,
+            "max_lvl" : 59,
+            "color" : "yellow",
+            "rlvl" : 14
+        },
+        {
+            "name" : "blessed",
+            "property" : "+[51-65]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 25,
+            "max_lvl" : 99,
+            "color" : "yellow",
+            "rlvl" : 18
+        },
+        {
+            "name" : "saintly",
+            "property" : "+[66-80]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 31,
+            "max_lvl" : 99,
+            "color" : "yellow",
+            "rlvl" : 23
+        },
+        {
+            "name" : "holy",
+            "property" : "+[81-100]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 36,
+            "max_lvl" : 99,
+            "color" : "yellow",
+            "rlvl" : 27
+        },
+        {
+            "name" : "godly",
+            "property" : "+[101-200]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 45,
+            "max_lvl" : 99,
+            "color" : "blue",
+            "rlvl" : 38
+        },
+        {
+            "name" : "godly",
+            "property" : "+[101-200]% Enhanced Defense",
+            "items" : ["armor"],
+            "min_lvl" : 50,
+            "max_lvl" : 99,
+            "color" : "yellow",
+            "rlvl" : 43
+        }
+    ],
+    "suffixes" : [
+
+    ]
+}
