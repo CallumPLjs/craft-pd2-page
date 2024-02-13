@@ -223,7 +223,6 @@ a {
 
 .explain {
     display: grid;
-    align-items: center;
     grid-template-columns: 1fr 1fr;
     padding: 5px;
     margin: 0px 0px;
