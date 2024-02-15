@@ -12,148 +12,147 @@
 
 <body>
     <h1>Craft Runes</h1>
-    <label for="searchInput">Search:</label>
-    <input type="search" id="searchInput" placeholder="Search for items...">
-    <label for="runes">Choose a rune:</label>
-    <select id="runes" name="runes">
-        <option value="" selected></option>
-        <option value="el">EL</option>
-        <option value="eld">ELD</option>
-        <option value="tir">TIR</option>
-        <option value="nef">NEF</option>
-        <option value="eth">ETH</option>
-        <option value="ith">ITH</option>
-        <option value="tal">TAL</option>
-        <option value="ral">RAL</option>
-        <option value="ort">ORT</option>
-        <option value="thul">THUL</option>
-        <option value="amn">AMN</option>
-        <option value="sol">SOL</option>
-        <option value="shael">SHAEL</option>
-        <option value="dol">DOL</option>
-        <option value="hel">HEL</option>
-        <option value="io">IO</option>
-        <option value="lum">LUM</option>
-        <option value="ko">KO</option>
-    </select>
+    <div class="runeSearchContainer">
+        <label for="searchInput">Search:</label>
+        <input type="search" id="searchInput" placeholder="Search for items...">
+        <label for="runes">Choose a rune:</label>
+        <select id="runes" name="runes">
+            <option value="" selected></option>
+            <option value="el">EL</option>
+            <option value="eld">ELD</option>
+            <option value="tir">TIR</option>
+            <option value="nef">NEF</option>
+            <option value="eth">ETH</option>
+            <option value="ith">ITH</option>
+            <option value="tal">TAL</option>
+            <option value="ral">RAL</option>
+            <option value="ort">ORT</option>
+            <option value="thul">THUL</option>
+            <option value="amn">AMN</option>
+            <option value="sol">SOL</option>
+            <option value="shael">SHAEL</option>
+            <option value="dol">DOL</option>
+            <option value="hel">HEL</option>
+            <option value="io">IO</option>
+            <option value="lum">LUM</option>
+            <option value="ko">KO</option>
+        </select>
 
-    <button id="clear">Clear fields</button>
-    <table id="myTable">
-        <tr>
-            <th style="font-weight: bold; font-size: 1.2em;">Item</th>
-            <th style="font-weight: bold; font-size: 1.2em; color: red;">Blood - Ruby</th>
-            <th style="font-weight: bold; font-size: 1.2em; color: rgb(235, 30, 235);">Caster - Amethyst</th>
-            <th style="font-weight: bold; font-size: 1.2em; color: deepskyblue;">Hitpower - Saphire</th>
-            <th style="font-weight: bold; font-size: 1.2em; color: lime;">Safety - Emerald</th>
-            <th style="font-weight: bold; font-size: 1.2em; color: silver;">Vampiric - Skull</th>
-            <th style="font-weight: bold; font-size: 1.2em; color: gold;">Bountiful - Topaz</th>
-            <th style="font-weight: bold; font-size: 1.2em;">Item</th>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Amulet</td>
-            <td id="blamu"> AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
-            <td id="castamu">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
-            <td id="hitamu">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
-            <td id="safeamu">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
-            <td id="vamamu">DOL <img class="rune" src="./images/RuneDol.png" alt="Dol Rune" style="width:28px;height:28px;"></td>
-            <td id="bouamu">KO <img class="rune" src="./images/RuneKo.png" alt="Ko Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Amulet</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Ring</td>
-            <td id="blring">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune" style="width:28px;height:28px;"></td>
-            <td id="casring">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
-            <td id="hitring">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
-            <td id="safering">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
-            <td id="vamring">HEL <img class="rune" src="./images/RuneHel.png" alt="Hel Rune" style="width:28px;height:28px;"></td>
-            <td id="bouring">LUM <img class="rune" src="./images/RuneLum.png" alt="Lum Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Ring</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Belt</td>
-            <td id="blbelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
-            <td id="casbelt">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
-            <td id="hitbelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
-            <td id="safebelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
-            <td id="vambelt">ELD <img class="rune" src="./images/RuneEld.png" alt="Eld Rune" style="width:28px;height:28px;"></td>
-            <td id="boubelt">EL <img class="rune" src="./images/RuneEl.png" alt="El Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Belt</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Gloves</td>
-            <td id="blglov">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
-            <td id="casglove">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
-            <td id="hitglove">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
-            <td id="safeglov">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
-            <td id="vamglove">IO <img class="rune" src="./images/RuneIo.png" alt="Io Rune" style="width:28px;height:28px;"></td>
-            <td id="bouglov">HEL <img class="rune" src="./images/RuneHel.png" alt="Hel Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Gloves</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Boots</td>
-            <td id="blboot">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
-            <td id="casboot">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
-            <td id="hitboot">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
-            <td id="safeboot">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
-            <td id="vamboot">EL <img class="rune" src="./images/RuneEl.png" alt="El Rune" style="width:28px;height:28px;"></td>
-            <td id="bouboot">IO <img class="rune" src="./images/RuneIo.png" alt="Io Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Boots</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Helm</td>
-            <td id="blhelm">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
-            <td id="cashelm">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
-            <td id="hithelm">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
-            <td id="safehelm">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
-            <td id="vamhelm">LUM <img class="rune" src="./images/RuneLum.png" alt="Lum Rune" style="width:28px;height:28px;"></td>
-            <td id="bouhelm">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Helm</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Chest</td>
-            <td id="blche">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
-            <td id="casches">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
-            <td id="hitches">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
-            <td id="safeches">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
-            <td id="vamches">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
-            <td id="bouches">ELD <img class="rune" src="./images/RuneEld.png" alt="Eld Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Chest</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Shield</td>
-            <td id="blshie">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
-            <td id="casshie">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
-            <td id="hitshie">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
-            <td id="safeshie">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
-            <td id="vamshie">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune" style="width:28px;height:28px;"></td>
-            <td id="boushie">DOL <img class="rune" src="./images/RuneDol.png" alt="DolRune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Shield</td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Weapon</td>
-            <td id="blwep">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
-            <td id="caswep">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
-            <td id="hitwep">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
-            <td id="safewep">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune" style="width:28px;height:28px;"></td>
-            <td id="vamwep">SHAEL <img class="rune" src="./images/RuneShael.png" alt="Shael Rune" style="width:28px;height:28px;"></td>
-            <td id="bouwep">SHAEL <img class="rune" src="./images/RuneShael.png" alt="Shael Rune" style="width:28px;height:28px;"></td>
-            <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Weapon</td>
-        </tr>
-        
-    </table>
-    <!-- <img class="craftTable" src="./images/craftpd2.png" alt="craft table" style="width:83%; align-self: center;"> -->
+        <button id="clear">Clear fields</button>
+        <table id="myTable">
+            <tr>
+                <th style="font-weight: bold; font-size: 1.2em;">Item</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: red;">Blood - Ruby</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: rgb(235, 30, 235);">Caster - Amethyst</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: deepskyblue;">Hitpower - Saphire</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: lime;">Safety - Emerald</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: silver;">Vampiric - Skull</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: gold;">Bountiful - Topaz</th>
+                <th style="font-weight: bold; font-size: 1.2em;">Item</th>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Amulet</td>
+                <td id="blamu"> AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
+                <td id="castamu">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
+                <td id="hitamu">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
+                <td id="safeamu">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
+                <td id="vamamu">DOL <img class="rune" src="./images/RuneDol.png" alt="Dol Rune" style="width:28px;height:28px;"></td>
+                <td id="bouamu">KO <img class="rune" src="./images/RuneKo.png" alt="Ko Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Amulet</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Ring</td>
+                <td id="blring">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune" style="width:28px;height:28px;"></td>
+                <td id="casring">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
+                <td id="hitring">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
+                <td id="safering">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune" style="width:28px;height:28px;"></td>
+                <td id="vamring">HEL <img class="rune" src="./images/RuneHel.png" alt="Hel Rune" style="width:28px;height:28px;"></td>
+                <td id="bouring">LUM <img class="rune" src="./images/RuneLum.png" alt="Lum Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Ring</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Belt</td>
+                <td id="blbelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
+                <td id="casbelt">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
+                <td id="hitbelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
+                <td id="safebelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
+                <td id="vambelt">ELD <img class="rune" src="./images/RuneEld.png" alt="Eld Rune" style="width:28px;height:28px;"></td>
+                <td id="boubelt">EL <img class="rune" src="./images/RuneEl.png" alt="El Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Belt</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Gloves</td>
+                <td id="blglov">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
+                <td id="casglove">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
+                <td id="hitglove">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
+                <td id="safeglov">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
+                <td id="vamglove">IO <img class="rune" src="./images/RuneIo.png" alt="Io Rune" style="width:28px;height:28px;"></td>
+                <td id="bouglov">HEL <img class="rune" src="./images/RuneHel.png" alt="Hel Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Gloves</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Boots</td>
+                <td id="blboot">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
+                <td id="casboot">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
+                <td id="hitboot">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
+                <td id="safeboot">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
+                <td id="vamboot">EL <img class="rune" src="./images/RuneEl.png" alt="El Rune" style="width:28px;height:28px;"></td>
+                <td id="bouboot">IO <img class="rune" src="./images/RuneIo.png" alt="Io Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Boots</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Helm</td>
+                <td id="blhelm">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune" style="width:28px;height:28px;"></td>
+                <td id="cashelm">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
+                <td id="hithelm">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
+                <td id="safehelm">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
+                <td id="vamhelm">LUM <img class="rune" src="./images/RuneLum.png" alt="Lum Rune" style="width:28px;height:28px;"></td>
+                <td id="bouhelm">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Helm</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Chest</td>
+                <td id="blche">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune" style="width:28px;height:28px;"></td>
+                <td id="casches">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune" style="width:28px;height:28px;"></td>
+                <td id="hitches">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
+                <td id="safeches">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
+                <td id="vamches">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
+                <td id="bouches">ELD <img class="rune" src="./images/RuneEld.png" alt="Eld Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Chest</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Shield</td>
+                <td id="blshie">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune" style="width:28px;height:28px;"></td>
+                <td id="casshie">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
+                <td id="hitshie">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune" style="width:28px;height:28px;"></td>
+                <td id="safeshie">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune" style="width:28px;height:28px;"></td>
+                <td id="vamshie">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune" style="width:28px;height:28px;"></td>
+                <td id="boushie">DOL <img class="rune" src="./images/RuneDol.png" alt="DolRune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Shield</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Weapon</td>
+                <td id="blwep">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune" style="width:28px;height:28px;"></td>
+                <td id="caswep">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
+                <td id="hitwep">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune" style="width:28px;height:28px;"></td>
+                <td id="safewep">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune" style="width:28px;height:28px;"></td>
+                <td id="vamwep">SHAEL <img class="rune" src="./images/RuneShael.png" alt="Shael Rune" style="width:28px;height:28px;"></td>
+                <td id="bouwep">SHAEL <img class="rune" src="./images/RuneShael.png" alt="Shael Rune" style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Weapon</td>
+            </tr>
+            
+        </table>
 
-    <div id="cell-popup" class="hidden">
-        <!-- Hover card content will be dynamically added here -->
+        <div id="cell-popup" class="hidden">
+            <!-- Hover card content will be dynamically added here -->
+        </div>
     </div>
-
     <h1 id="title">Craft Levels</h1>
 
     <div>
-        <!-- <button id="autofill">AutoFill form</button> -->
         <form id="myForm">
             <div class="grid-container parameters">
-
+                <!-- dropdowns part -->
                 <section class="grid-item">
                     <h2>Item base selection:</h2>
                     <div>
@@ -218,32 +217,11 @@
                     </div>
                 
                 </section>
-
+                <!-- inputs part -->
                 <section class="grid-item">
-                    <!-- <label for="craftBase">Pick base source: </label>
-                            <select id="craftBase" name="craftBase">
-                                <option value="">Select Item</option>
-                                <option value="drop">Drop</option>
-                                <option value="shop">Shop</option>
-                            </select><br><br> -->
-                    <!-- <select>
-                                <optgroup label="Category 1">
-                                    <option value="option1">Option 1</option>
-                                    <option value="option2">Option 2</option>
-                                    <option value="option3">Option 3</option>
-                                </optgroup>
-                            
-                                <optgroup label="Category 2">
-                                    <option value="option4">Option 4</option>
-                                    <option value="option5">Option 5</option>
-                                </optgroup>
-                            
-                                
-                            </select><br> -->
                     <h2>Autofilled by fields on the left:</h2>
                     <div class="input_container">
                         <label for="qlvl">QLVL: </label>
-                        <!-- <input class="input_field" type="number" step="any" name="qlvl" id="qlvl" placeholder="qlvl" required> -->
                         <input class="input_field" type="text" name="qlvl" id="qlvl" value="0" readonly>
                     </div>
                     <h2>Drop option:</h2>
@@ -262,43 +240,51 @@
                         <input class="input_field" type="number" id="cLevel" name="crafterLevel" required>
                     </div>
                 </section>
-
+                <!-- text output -->
                 <section class="grid-item">
                     <div id="outputDisplay" style="margin-top: 2px;">
-                        <h2>Output:</h2>
+                        <h2>Output values:</h2>
                         <p id="outputText"></p>
                     </div>
                 </section>
-
+                <!-- table output -->
                 <section class="grid-item">
                     <div id="affixOutputDisplay" style="margin-top: 2px;">
-                        <h2>Affix Pool Output:</h2>
+                        <h2>Prefix Pool Output:</h2>
                         <div>
-                            <table id="affixTable">
+                            <table class="affixTable" id="prefixTable">
                                 <thead>
-                                    <tr id="header2">
+                                    <tr class="tableHead" id="header" style="color: rgb(96, 190, 159);">
+                                        <th>Name</th>
+                                        <th>Property</th>
+                                        <th>minLvl</th>
+                                        <th>maxLvl</th>
+                                        <th>rlvl</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tableBody" id="tab">
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <h2>Suffix Pool Output:</h2>
+                        <div>
+                            <table class="affixTable"  id="suffixTable">
+                                <thead>
+                                    <tr class="tableHead" id="header2" style="color: rgb(96, 190, 159);">
                                         <th>Name</th>
                                         <th>Property</th>
                                         <th>aLvl</th>
                                         <th>rlvl</th>
                                     </tr>
                                 </thead>
-                                <tbody id="tab2">
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
+                                <tbody class="tableBody" id="tab2">
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </section>
-
-
             </div>
-            <h4></h4>
             <div class="buttons">
                 <button type="button" onclick="validateForm()">Submit</button>
             </div>

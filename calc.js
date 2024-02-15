@@ -10,12 +10,11 @@ let buyerLevel = document.getElementById("bLevel");
 let crafterLevel = document.getElementById("cLevel");
 let qlvlF = document.getElementById("qlvl");
 let selectionParams = {
-    type : "",
-    class : ""
+    "type" : "",
+    "class" : "",
+    "alvl" : 0,
+    "color" : ""
 }
-// let paramType = selectionParams.type;
-// let paramClass = selectionParams.class;
-
 
 
 function generateALvl(item_iLvl, qLvl) {
@@ -35,35 +34,7 @@ function generateALvl(item_iLvl, qLvl) {
     return itemALvl;
 }
 
-function validateForm() {
-    let buyer_cLvl = parseFloat(document.getElementById("bLevel").value); 
-    let crafter_cLvl = parseFloat(document.getElementById("cLevel").value);
-    let dropped_iLvl = parseFloat(document.getElementById("ilvl").value);
-    let spawned_iLvl = Math.min((buyer_cLvl + 5), 99);
-    let qlvl = parseFloat(document.getElementById("qlvl").value); 
 
-    if (qlvl > spawned_iLvl) {
-        spawned_iLvl = qlvl;
-    }
-
-    let crafted_iLvl;
-    if (buyer_cLvl && !dropped_iLvl) {
-        crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(spawned_iLvl/2);
-    }
-    if (dropped_iLvl && !buyer_cLvl) {
-        crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(dropped_iLvl/2);
-    }
-    if (dropped_iLvl && buyer_cLvl) {
-        crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(dropped_iLvl/2);
-    }
-
-
-    let shoppedItemAfixLevel = generateALvl(spawned_iLvl, qlvl);
-    
-    let craftedItemAfixLevel = generateALvl(crafted_iLvl, qlvl);
-
-    displayOutput(buyer_cLvl, crafter_cLvl,spawned_iLvl, crafted_iLvl, shoppedItemAfixLevel, craftedItemAfixLevel);
-}
 
 function displayOutput(buyerLevel, crafterLevel, spawned_iLvl, crafted_iLvl, shoppedItemAfixLevel, craftedItemAfixLevel) {
     var outputText = `Buyer Level: ${buyerLevel}<br>Crafter Level: ${crafterLevel}<br>Shopped item iLvl: <b style="font-size:1.5em;color:green;">${spawned_iLvl}</b><br>Shopped item afix level: ${shoppedItemAfixLevel}<br>Crafted item iLvl: <b style="font-size:1.5em;color:green;">${crafted_iLvl}</b><br>Crafted item afix level: <b style="font-size:1.5em;color:green;">${craftedItemAfixLevel}</b>`;
@@ -87,16 +58,6 @@ function fillSecondDropdown(selection) {
 
         // Loop through the selected data and fill the options
         selectedData.forEach(item => {
-            // Set the value and text of the option
-            // Create an option element
-            // const option = document.createElement("option");
-            // option.value = item.name;
-            // option.text = item.name;
-            // option.dataset.qlvl = item.qlvl;
-            // option.dataset.type = item.type;
-            // option.dataset.class = item.class;
-            // // Append the option to the second dropdown
-            // pickBase.appendChild(option);
             
             const quality = item.quality;
     
@@ -166,16 +127,6 @@ function fillSecondDropdown2(selection) {
          const qualityGroups = {};
         // Loop through the selected data and fill the options
         selectedData.forEach(item => {
-            // // Set the value and text of the option
-            // // Create an option element
-            // const option = document.createElement("option");
-            // // const qlvl = document.getElementById("qlvl");
-            
-            // option.value = item.name;
-            // option.text = item.name;
-            // option.dataset.qlvl = item.qlvl;
-            // // Append the option to the second dropdown
-            // pickBasew.appendChild(option);
             const quality = item.quality;
     
             // If the quality group doesn't exist, create it
@@ -208,10 +159,16 @@ function fillSecondDropdown2(selection) {
 
             // Retrieve the value of the "qlvl" property
             const qlvlValue = parseFloat(selectedOption.dataset.qlvl);
-            console.log("qlvlValue:", qlvlValue);
-            
+            // console.log("qlvlValue:", qlvlValue);
+            const typeValue = selectedOption.dataset.type;
+            //  console.log("typeValue:", typeValue);
+            const classValue = selectedOption.dataset.class;
+            // console.log("classValue:", classValue);
             // Push the value into the form field
             qlvlF.value = qlvlValue;
+            selectionParams.type = typeValue;
+            selectionParams.class = classValue;
+            // console.log(selectionParams);
         });
     })
     .catch(error => console.error('Error fetching data:', error));
@@ -222,7 +179,96 @@ pickwep.addEventListener("change", function () {
   fillSecondDropdown2(this.value);
 });
 
+function fillPreffixTable() {
+    fetch('affix.json')
+    .then(response => response.json())
+    .then(data => {
+        
+        // console.log(data.prefixes);
+        let prefixTableBody = document.getElementById("tab");
+        prefixTableBody.innerHTML = "";
+        let counter = 0;
+        // Find the corresponding data in the JSON
+        // const selectedData = data[selectionParams.type];
+        // Loop through the selected data and fill the options
+        data.prefixes.forEach(item => {
+            // Check if the selected type matches the item type
+            // const isMatch = item.items && item.items.some(item => item.type === selectionParams.type);
+            console.log('Item:', item);
+            console.log('Items Length:', item.items.length);
+            console.log('Type:', selectionParams.type);
+            console.log('Alvl:', selectionParams.alvl);
+            const isMatch = item.items && 
+                            item.items.some(item => item.type === selectionParams.type) &&
+                            selectionParams.alvl >= item.min_lvl &&
+                            selectionParams.alvl <= item.max_lvl &&
+                            selectionParams.color === item.color;
+            if (isMatch) {
+                // If they match, insert a new row in the table
+                console.log('Match found!');
+                let row = prefixTableBody.insertRow(counter);
+                let nameCell = row.insertCell(0);
+                let propertyCell = row.insertCell(1);
+                let minLvlCell = row.insertCell(2);
+                let maxLvlCell = row.insertCell(3);
+                let rLvlCell = row.insertCell(4);
 
+                // Fill the cells with item data
+                nameCell.innerHTML = item.name;
+                propertyCell.innerHTML = item.property;
+                minLvlCell.innerHTML = item.min_lvl;
+                maxLvlCell.innerHTML = item.max_lvl;
+                rLvlCell.innerHTML = item.rlvl;
+                counter++;
+                console.log('Counter:', counter);
+                console.log('Is Match:', isMatch);
+                // console.log(nameCell.innerHTML);
+            }
+            
+        });
+    })
+    .catch(error => console.error('Error fetching data:', error));
+}
+
+function validateForm() {
+    let buyer_cLvl = parseFloat(document.getElementById("bLevel").value); 
+    let crafter_cLvl = parseFloat(document.getElementById("cLevel").value);
+    let dropped_iLvl = parseFloat(document.getElementById("ilvl").value);
+    let spawned_iLvl = Math.min((buyer_cLvl + 5), 99);
+    let qlvl = parseFloat(document.getElementById("qlvl").value); 
+
+    if (qlvl > spawned_iLvl) {
+        spawned_iLvl = qlvl;
+    }
+
+    let crafted_iLvl;
+    if (buyer_cLvl && !dropped_iLvl) {
+        crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(spawned_iLvl/2);
+    }
+    if (dropped_iLvl && !buyer_cLvl) {
+        crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(dropped_iLvl/2);
+    }
+    if (dropped_iLvl && buyer_cLvl) {
+        crafted_iLvl = Math.floor(crafter_cLvl/2) + Math.floor(dropped_iLvl/2);
+    }
+
+
+    let shoppedItemAfixLevel = generateALvl(spawned_iLvl, qlvl);
+    
+    let craftedItemAfixLevel = generateALvl(crafted_iLvl, qlvl);
+    
+    if (isNaN(craftedItemAfixLevel)){
+        selectionParams.alvl = shoppedItemAfixLevel;
+        selectionParams.color = "blue";
+    } else {
+        selectionParams.alvl = craftedItemAfixLevel;
+        selectionParams.color = "yellow";
+    }
+    // console.log(selectionParams.alvl);
+
+    displayOutput(buyer_cLvl, crafter_cLvl,spawned_iLvl, crafted_iLvl, shoppedItemAfixLevel, craftedItemAfixLevel);
+    fillPreffixTable();
+}
 // Initial fill when the page loads
 // fillSecondDropdown(document.getElementById("firstDropdown").value);
 
