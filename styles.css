@@ -88,6 +88,7 @@ td {
 
 tr:nth-child(even) {
     background-color: #222;
+    color: rgb(234, 179, 112);
 }
 
 ::-webkit-input-placeholder {
@@ -203,12 +204,12 @@ a {
 
 .affixTable th:nth-child(1),
 .affixTable td:nth-child(1) {
-    width: 20%;
+    width: 12%;
 }
 
 .affixTable th:nth-child(2),
 .affixTable td:nth-child(2) {
-    width: 50%;
+    width: 58%;
 }
 
 .affixTable th:nth-child(3),

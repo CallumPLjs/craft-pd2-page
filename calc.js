@@ -193,19 +193,17 @@ function fillPreffixTable() {
         // Loop through the selected data and fill the options
         data.prefixes.forEach(item => {
             // Check if the selected type matches the item type
-            // const isMatch = item.items && item.items.some(item => item.type === selectionParams.type);
-            console.log('Item:', item);
-            console.log('Items Length:', item.items.length);
-            console.log('Type:', selectionParams.type);
-            console.log('Alvl:', selectionParams.alvl);
+            console.log(selectionParams.color);
             const isMatch = item.items && 
-                            item.items.some(item => item.type === selectionParams.type) &&
+                            item.items.some(item => item.type === selectionParams.type && item.class === selectionParams.class) &&
                             selectionParams.alvl >= item.min_lvl &&
                             selectionParams.alvl <= item.max_lvl &&
-                            selectionParams.color === item.color;
+                            (
+                                selectionParams.color === "blue" ||  selectionParams.color === item.color
+                            );
+                            // selectionParams.color === item.color;
             if (isMatch) {
                 // If they match, insert a new row in the table
-                console.log('Match found!');
                 let row = prefixTableBody.insertRow(counter);
                 let nameCell = row.insertCell(0);
                 let propertyCell = row.insertCell(1);
@@ -220,9 +218,6 @@ function fillPreffixTable() {
                 maxLvlCell.innerHTML = item.max_lvl;
                 rLvlCell.innerHTML = item.rlvl;
                 counter++;
-                console.log('Counter:', counter);
-                console.log('Is Match:', isMatch);
-                // console.log(nameCell.innerHTML);
             }
             
         });
