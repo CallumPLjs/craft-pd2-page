@@ -315,6 +315,11 @@ function sortTable(columnIndex) {
         }
     }
 }
+
+function toggleElement() {
+    var element = document.getElementById("runeSearchContainer");
+    element.classList.toggle("hidden");
+}
 // Initial fill when the page loads
 // fillSecondDropdown(document.getElementById("firstDropdown").value);
 

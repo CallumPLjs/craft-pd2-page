@@ -12,7 +12,9 @@
 
 <body>
     <h1>Craft Runes</h1>
-    <div class="runeSearchContainer">
+
+    <button onclick="toggleElement()">Hide/Show Rune Search</button>
+    <div class="runeSearchContainer" id="runeSearchContainer">
         <label for="searchInput">Search:</label>
         <input type="search" id="searchInput" placeholder="Search for items...">
         <label for="runes">Choose a rune:</label>
@@ -148,7 +150,9 @@
         </div>
     </div>
     <h1 id="title">Craft Levels</h1>
-
+    <div class="buttons">
+        <button type="button" onclick="validateForm()">Submit</button>
+    </div>
     <div>
         <form id="myForm">
             <div class="grid-container parameters">
@@ -248,9 +252,7 @@
                     </div>
                 </section>
             </div>
-            <div class="buttons">
-                <button type="button" onclick="validateForm()">Submit</button>
-            </div>
+            
             <div class="grid-container outputTables">
                 <!-- table output -->
                 <section class="grid-item tables">
@@ -262,7 +264,7 @@
                                     <tr class="tableHead" id="header" style="color: rgb(96, 190, 159);">
                                         <th>Name</th>
                                         <th>Property</th>
-                                        <th onclick="sortTable(2, prefixTable)">minLvl</th>
+                                        <th onclick="sortTable(2)">minLvl <span class="arrow">&#x2195;</span></th>
                                         <th>maxLvl</th>
                                         <th>rlvl</th>
                                     </tr>
@@ -283,7 +285,8 @@
                                         <tr class="tableHead" id="header2" style="color: rgb(96, 190, 159);">
                                             <th>Name</th>
                                             <th>Property</th>
-                                            <th>aLvl</th>
+                                            <th>minLvl <span class="arrow">&#x2195;</span></th>
+                                            <th>maxLvl</th>
                                             <th>rlvl</th>
                                         </tr>
                                     </thead>

@@ -178,7 +178,7 @@ li {
 .outputTables {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
+    grid-gap: 25px;
     padding: 5px;
     margin: 0px 0px;
 }
@@ -292,3 +292,15 @@ a {
     /* text-align: right; */
     /* Adjust the width as needed */
 }
+
+.hidden {
+    display: none;
+}
+
+/* .arrow {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 12px;
+} */
