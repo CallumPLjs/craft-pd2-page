@@ -264,6 +264,57 @@ function validateForm() {
     displayOutput(buyer_cLvl, crafter_cLvl,spawned_iLvl, crafted_iLvl, shoppedItemAfixLevel, craftedItemAfixLevel);
     fillPreffixTable();
 }
+
+ var currentSortColumn = -1;
+var currentSortDirection = "asc";
+
+function sortTable(columnIndex) {
+    var table, rows, switching, i, x, y, shouldSwitch, switchcount = 0;
+    table = document.getElementById("prefixTable");
+    switching = true;
+
+    if (currentSortColumn === columnIndex) {
+        // If clicking on the same column, toggle the sorting direction
+        currentSortDirection = (currentSortDirection === "asc") ? "desc" : "asc";
+    } else {
+        // If clicking on a different column, reset the sorting direction
+        currentSortColumn = columnIndex;
+        currentSortDirection = "asc";
+    }
+
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("td")[columnIndex];
+            y = rows[i + 1].getElementsByTagName("td")[columnIndex];
+
+            var xValue = isNaN(x.innerHTML) ? x.innerHTML.toLowerCase() : parseFloat(x.innerHTML);
+            var yValue = isNaN(y.innerHTML) ? y.innerHTML.toLowerCase() : parseFloat(y.innerHTML);
+
+            if (currentSortDirection === "asc" && xValue > yValue) {
+                shouldSwitch = true;
+                break;
+            } else if (currentSortDirection === "desc" && xValue < yValue) {
+                shouldSwitch = true;
+                break;
+            }
+        }
+
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            switchcount++;
+        } else {
+            if (switchcount === 0 && currentSortDirection === "asc") {
+                currentSortDirection = "desc";
+                switching = true;
+            }
+        }
+    }
+}
 // Initial fill when the page loads
 // fillSecondDropdown(document.getElementById("firstDropdown").value);
 

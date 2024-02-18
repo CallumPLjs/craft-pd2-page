@@ -247,9 +247,14 @@
                         <p id="outputText"></p>
                     </div>
                 </section>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="validateForm()">Submit</button>
+            </div>
+            <div class="grid-container outputTables">
                 <!-- table output -->
-                <section class="grid-item">
-                    <div id="affixOutputDisplay" style="margin-top: 2px;">
+                <section class="grid-item tables">
+                    <div style="margin-top: 2px;">
                         <h2>Prefix Pool Output:</h2>
                         <div>
                             <table class="affixTable" id="prefixTable">
@@ -257,7 +262,7 @@
                                     <tr class="tableHead" id="header" style="color: rgb(96, 190, 159);">
                                         <th>Name</th>
                                         <th>Property</th>
-                                        <th>minLvl</th>
+                                        <th onclick="sortTable(2, prefixTable)">minLvl</th>
                                         <th>maxLvl</th>
                                         <th>rlvl</th>
                                     </tr>
@@ -267,27 +272,29 @@
                                 </tbody>
                             </table>
                         </div>
+                    </div>
+                </section>
+                <section class="grid-item tables">
+                    <div style="margin-top: 2px;">
                         <h2>Suffix Pool Output:</h2>
-                        <div>
-                            <table class="affixTable"  id="suffixTable">
-                                <thead>
-                                    <tr class="tableHead" id="header2" style="color: rgb(96, 190, 159);">
-                                        <th>Name</th>
-                                        <th>Property</th>
-                                        <th>aLvl</th>
-                                        <th>rlvl</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="tableBody" id="tab2">
-                                </tbody>
-                            </table>
-                        </div>
+                            <div>
+                                <table class="affixTable"  id="suffixTable">
+                                    <thead>
+                                        <tr class="tableHead" id="header2" style="color: rgb(96, 190, 159);">
+                                            <th>Name</th>
+                                            <th>Property</th>
+                                            <th>aLvl</th>
+                                            <th>rlvl</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="tableBody" id="tab2">
+                                    </tbody>
+                                </table>
+                            </div>
                     </div>
                 </section>
             </div>
-            <div class="buttons">
-                <button type="button" onclick="validateForm()">Submit</button>
-            </div>
+            
         </form>
     </div>
 
