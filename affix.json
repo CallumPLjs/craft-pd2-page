@@ -5512,6 +5512,24 @@
         }
     ],
     "suffixes" : [
-
+        {
+            "name" : "sturdy",
+            "property" : "+[10-20]% Enhanced Defense",
+            "items" : [{"type": "helm", "class": "none"},
+                {"type": "helm", "class": "druid"},
+                {"type": "helm", "class": "barbarian"}, 
+                {"type": "chest", "class": "none"},
+                {"type": "belt", "class": "none"},
+                {"type": "gloves", "class": "none"},
+                {"type": "boots", "class": "none"},
+                {"type": "circlet", "class": "none"},
+                {"type": "shield", "class": "none"},
+                {"type": "shield", "class": "paladin"},
+                {"type": "shield", "class": "necromancer"}],
+            "min_lvl" : 1,
+            "max_lvl" : 41,
+            "color" : "yellow",
+            "rlvl" : 1
+        }
     ]
 }

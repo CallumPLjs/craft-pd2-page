@@ -225,6 +225,52 @@ function fillPreffixTable() {
     .catch(error => console.error('Error fetching data:', error));
 }
 
+function fillSuffixTable() {
+    fetch('affix.json')
+    .then(response => response.json())
+    .then(data => {
+        
+        // console.log(data.prefixes);
+        let suffixTableBody = document.getElementById("tab2");
+        suffixTableBody.innerHTML = "";
+        let counter = 0;
+        // Find the corresponding data in the JSON
+        // const selectedData = data[selectionParams.type];
+        // Loop through the selected data and fill the options
+        data.suffixes.forEach(item => {
+            // Check if the selected type matches the item type
+            console.log(selectionParams.color);
+            const isMatch = item.items && 
+                            item.items.some(item => item.type === selectionParams.type && item.class === selectionParams.class) &&
+                            selectionParams.alvl >= item.min_lvl &&
+                            selectionParams.alvl <= item.max_lvl &&
+                            (
+                                selectionParams.color === "blue" ||  selectionParams.color === item.color
+                            );
+                            // selectionParams.color === item.color;
+            if (isMatch) {
+                // If they match, insert a new row in the table
+                let row = suffixTableBody.insertRow(counter);
+                let nameCell = row.insertCell(0);
+                let propertyCell = row.insertCell(1);
+                let minLvlCell = row.insertCell(2);
+                let maxLvlCell = row.insertCell(3);
+                let rLvlCell = row.insertCell(4);
+
+                // Fill the cells with item data
+                nameCell.innerHTML = item.name;
+                propertyCell.innerHTML = item.property;
+                minLvlCell.innerHTML = item.min_lvl;
+                maxLvlCell.innerHTML = item.max_lvl;
+                rLvlCell.innerHTML = item.rlvl;
+                counter++;
+            }
+            
+        });
+    })
+    .catch(error => console.error('Error fetching data:', error));
+}
+
 function validateForm() {
     let buyer_cLvl = parseFloat(document.getElementById("bLevel").value); 
     let crafter_cLvl = parseFloat(document.getElementById("cLevel").value);
@@ -263,14 +309,15 @@ function validateForm() {
 
     displayOutput(buyer_cLvl, crafter_cLvl,spawned_iLvl, crafted_iLvl, shoppedItemAfixLevel, craftedItemAfixLevel);
     fillPreffixTable();
+    fillSuffixTable();
 }
 
- var currentSortColumn = -1;
+var currentSortColumn = -1;
 var currentSortDirection = "asc";
 
-function sortTable(columnIndex) {
+function sortTable(columnIndex, tableName) {
     var table, rows, switching, i, x, y, shouldSwitch, switchcount = 0;
-    table = document.getElementById("prefixTable");
+    table = document.getElementById(tableName);
     switching = true;
 
     if (currentSortColumn === columnIndex) {
