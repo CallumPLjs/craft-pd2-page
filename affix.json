@@ -2199,7 +2199,7 @@
         },
         {
             "name" : "saphire",
-            "property" : "Cold Resist +[21-30]%",
+            "property" : "Cold Resist +[31-40]%",
             "items" : [{"type": "boots", "class": "none"},
                 {"type": "circlet", "class": "none"},
                 {"type": "amulet", "class": "none"}, 
@@ -2381,7 +2381,7 @@
         },
         {
             "name" : "ruby",
-            "property" : "Fire Resist +[21-30]%",
+            "property" : "Fire Resist +[31-40]%",
             "items" : [{"type": "boots", "class": "none"},
                 {"type": "circlet", "class": "none"},
                 {"type": "amulet", "class": "none"}, 
@@ -2563,7 +2563,7 @@
         },
         {
             "name" : "amber",
-            "property" : "Lightning Resist +[21-30]%",
+            "property" : "Lightning Resist +[31-40]%",
             "items" : [{"type": "boots", "class": "none"},
                 {"type": "circlet", "class": "none"},
                 {"type": "amulet", "class": "none"}, 
@@ -2745,7 +2745,7 @@
         },
         {
             "name" : "emerald",
-            "property" : "Poison Resist +[21-30]%",
+            "property" : "Poison Resist +[31-40]%",
             "items" : [{"type": "boots", "class": "none"},
                 {"type": "circlet", "class": "none"},
                 {"type": "amulet", "class": "none"}, 
