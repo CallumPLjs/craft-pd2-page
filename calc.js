@@ -37,7 +37,7 @@ function generateALvl(item_iLvl, qLvl) {
 
 
 function displayOutput(buyerLevel, crafterLevel, spawned_iLvl, crafted_iLvl, shoppedItemAfixLevel, craftedItemAfixLevel) {
-    var outputText = `Buyer Level: ${buyerLevel}<br>Crafter Level: ${crafterLevel}<br>Shopped item iLvl: <b style="font-size:1.5em;color:green;">${spawned_iLvl}</b><br>Shopped item afix level: ${shoppedItemAfixLevel}<br>Crafted item iLvl: <b style="font-size:1.5em;color:green;">${crafted_iLvl}</b><br>Crafted item afix level: <b style="font-size:1.5em;color:green;">${craftedItemAfixLevel}</b>`;
+    var outputText = `Buyer Level: ${buyerLevel}<br>Crafter Level: ${crafterLevel}<br>Shopped item iLvl: <b style="font-size:1.5em;color:green;">${spawned_iLvl}</b><br>Shopped item afix level: ${shoppedItemAfixLevel}<br>Crafted item iLvl: <b style="font-size:1.5em;color:green;">${crafted_iLvl}</b><br>Crafted item afix level: <b style="font-size:1.5em;color:green;">${craftedItemAfixLevel}</b><br>Item color: <b style="font-size:1.5em;color:${selectionParams.color === 'blue' ? 'lightblue' : 'orange'};">${selectionParams.color}</b>`;
     document.getElementById("outputText").innerHTML = outputText;
     document.getElementById("outputDisplay").style.display = "block";
 }
