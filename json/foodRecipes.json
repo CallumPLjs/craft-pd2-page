@@ -1,0 +1,182 @@
+{
+    "keywordList" : ["casserole", "slow cooker", "30 mins", "air fryer", "brunch", "soup", "one pot", "tagine", "stew", "pate", "supper"],
+    "breakfast" : [
+
+    ],
+    "mains": [
+        {
+            "name" : "halloumi pasta",
+            "source" : "bbcFood",
+            "subSource" : "Saturday Kitchen",
+            "by" : "Matt Tebbutt",
+            "prepTime" : "less than 30 mins",
+            "cookTime" : "10-30 mins",
+            "serves" : 4,
+            "mainIngredients" : ["tomatoes", "halloumi", "pasta"],
+            "description" : "Halloumi, cherry tomatoes, oregano and flecks of chilli combine to make a stunning midweek pasta supper.",
+            "image" : "images/foodRecipes/mains/pennehalloumi.jpg",
+            "dietary" : "vegetarian",
+            "cuisine" : null,
+            "keywords" : [],
+            "ingredients" : [
+                {
+                    "for" : "pasta",
+                    "name" : "cherry tomatoes on the vine",
+                    "quantity" : "250g/9oz"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "olive oil",
+                    "quantity" : "1 tbsp"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "red onion, peeled, finely chopped",
+                    "quantity" : "1 piece"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "garlic, peeled, finely chopped",
+                    "quantity" : "2 cloves"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "red chilli, finely chopped",
+                    "quantity" : "1 piece"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "halloumi cheese, cut into 1cm cubes",
+                    "quantity" : "250g/9oz"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "canned cherry tomatoes",
+                    "quantity" : "400g/14oz"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "chopped fresh oregano leaves",
+                    "quantity" : "1 tbsp"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "salt and freshly ground black pepper",
+                    "quantity" : "chef's choice"
+                },
+                {
+                    "for" : "pasta",
+                    "name" : "fresh penne, cooked by packet instructions",
+                    "quantity" : "400g/14oz"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "dijon mustard",
+                    "quantity" : "1 tsp"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "white wine vinegar",
+                    "quantity" : "1 tbsp"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "extra virgin olive oil",
+                    "quantity" : "3 tbsp"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "salt and freshly ground black pepper",
+                    "quantity" : "chef's choice"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "rocket leaves",
+                    "quantity" : "75g/3oz"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "Little Gem lettuce, cut in half lengthways, leaves separated, washed",
+                    "quantity" : "1 head"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "lamb's lettuce or other salad leaves",
+                    "quantity" : "75g/3oz"
+                },
+                {
+                    "for" : "salad",
+                    "name" : "freshly grated Parmesan (or alternative vegetarian hard cheese)",
+                    "quantity" : "3 tbsp"
+                }
+            ],
+            "steps" : [
+                {"id" : 1,
+                "description" : "For the pasta, heat a frying pan until hot over a medium heat, add the fresh cherry tomatoes and fry for 4-5 minutes, or until just softened. Remove from the pan and set aside."},
+                {"id" : 2,
+                "description" : "Add the olive oil, red onion, garlic and chilli to the pan the tomatoes were cooked in and fry for 2-3 minutes."},
+                {"id" : 3,
+                "description" : "Add the halloumi cheese and cook for 1-2 minutes on each side, or until pale golden-brown on both sides. Add the canned cherry tomatoes and bring to the boil, then reduce the heat and simmer for 2-3 minutes. Add the fresh cherry tomatoes and oregano and cook for a further minute. Season, to taste, with salt and freshly ground black pepper."},
+                {"id" : 4,
+                "description" : "Add the cooked pasta to the pan and mix gently until well combined."},
+                {"id" : 5,
+                "description" : "For the salad, whisk the mustard and vinegar together in a bowl, then whisk in the olive oil. Season, to taste, with salt and freshly ground black pepper."},
+                {"id" : 6,
+                "description" : "Place all the salad leaves into a bowl and pour over the dressing. Stir until well combined."},
+                {"id" : 7,
+                "description" : "To serve, spoon the pasta onto four serving plates and sprinkle over the grated parmesan. Spoon the dressed salad alongside."}
+            ]
+        }
+    ],
+    "desserts" : [
+
+    ],
+    "howTo" : [
+        {"tempbbcgroups" : ["prep fruit and veg", "meat, poultry and eggs", "fish and shellfish", "pasta", "desserts, baking and pastry", "sauces, pastes and condiments"]},
+        {
+            "name" : "chop onion",
+            "group" : "preping fruit and vegetables",
+            "source" : "bbcFood",
+            "skillLevel" : "easy",
+            "equipment" : ["sharp knife", "chopping board"],
+            "videoLinks" : [
+                {"howToChop" : "https://www.bbc.co.uk/food/techniques/dicing_onions"}
+            ],
+            "descriptionSteps" : [
+                {"step" : "When learning to chop like a chef, start off slowly and proceed with care, making sure all your fingers - and your thumb - are clear from the blade as you cut. A sharp knife is essential."},
+                {"step" : "Hold the end of the celery stalk between your little finger and thumb."},
+                {"step" : "Angle the fingernail of your middle (or longest) finger and use that fingernail to guide and buffer the blade as it slices the celery."},
+                {"step" : "Meanwhile, with the hand holding the knife, ease the blade further up the celery with each cut, inching the fingernails of your other hand back accordingly."}
+            ]
+        },
+        {
+            "name" : "grating lemon zest",
+            "group" : "preping fruit and vegetables",
+            "source" : "bbcFood",
+            "skillLevel" : "easy",
+            "equipment" : ["grater"],
+            "videoLinks" : [
+                {"howToChop" : "https://www.bbc.co.uk/food/techniques/grating_lemon_zest"}
+            ],
+            "descriptionSteps" : [
+                {"step" : "Remove the zest from the lemon using a grater, make sure you remove the bright yellow zest and none of the white pith, which is bitter."}
+            ]
+        },
+        {
+            "name" : "boil an egg",
+            "group" : "meat, poultry and eggs",
+            "source" : "bbcFood",
+            "skillLevel" : "easy",
+            "equipment" : ["saucepan", "egg cup(optional)"],
+            "videoLinks" : [
+                {"howToChop" : "https://www.bbc.co.uk/food/techniques/how_to_boil_eggs"}
+            ],
+            "descriptionSteps" : [
+                {"step" : "Start with eggs that are at room temperature to best predict the cooking time and minimise cracking."},
+                {"step" : "For a soft-boiled egg, lower the egg into gently boiling water with a slotted spoon. Allow 5 minutes for a runny egg, 6 minutes for jammy, 7 minutes for fudgy and 10 minutes for hard."},
+                {"step" : "The longer you boil the egg, the firmer it will be."},
+                {"step" : "If not serving right away, once cooked, plunge the hard-boiled egg into plenty of cold water for one minute. Drain and cover with more cold water. This will prevent the egg from over-cooking in its residual heat. Cracking the shell with the back of a spoon during cooling will also make the egg easier to peel."}
+            ]
+        }
+    ]
+}
