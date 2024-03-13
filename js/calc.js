@@ -45,7 +45,7 @@ function displayOutput(buyerLevel, crafterLevel, spawned_iLvl, crafted_iLvl, sho
 function fillSecondDropdown(selection) {
    
   // Fetch the JSON data from bases.json
-  fetch('../json/bases.json')
+  fetch('json/bases.json')
     .then(response => response.json())
     .then(data => {
         
@@ -116,7 +116,7 @@ pickItem.addEventListener("change", function () {
 function fillSecondDropdown2(selection) {
    
   // Fetch the JSON data from weapons.json
-  fetch('../json/weapons.json')
+  fetch('json/weapons.json')
     .then(response => response.json())
     .then(data => {
         // Find the corresponding data in the JSON
@@ -180,7 +180,7 @@ pickwep.addEventListener("change", function () {
 });
 
 function fillPreffixTable() {
-    fetch('../json/affix.json')
+    fetch('json/affix.json')
     .then(response => response.json())
     .then(data => {
         
@@ -226,7 +226,7 @@ function fillPreffixTable() {
 }
 
 function fillSuffixTable() {
-    fetch('../json/affix.json')
+    fetch('json/affix.json')
     .then(response => response.json())
     .then(data => {
         
