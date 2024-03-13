@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Craft Runes</title>
+
+</head>
+
+<body>
+
+    <div class="top-menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./rune.html">Rune Search</a></li>
+            <li><a href="./afix.html">Afix Search</a></li>
+            <li><a href="./food.html">Food Search</a></li>
+        </ul>
+    </div>
+
+    <h1>Craft Runes</h1>
+
+    <button onclick="toggleElement()">Hide/Show Rune Search</button>
+    <div class="runeSearchContainer" id="runeSearchContainer">
+        <label for="searchInput">Search:</label>
+        <input type="search" id="searchInput" placeholder="Search for items...">
+        <label for="runes">Choose a rune:</label>
+        <select id="runes" name="runes">
+            <option value="" selected></option>
+            <option value="el">EL</option>
+            <option value="eld">ELD</option>
+            <option value="tir">TIR</option>
+            <option value="nef">NEF</option>
+            <option value="eth">ETH</option>
+            <option value="ith">ITH</option>
+            <option value="tal">TAL</option>
+            <option value="ral">RAL</option>
+            <option value="ort">ORT</option>
+            <option value="thul">THUL</option>
+            <option value="amn">AMN</option>
+            <option value="sol">SOL</option>
+            <option value="shael">SHAEL</option>
+            <option value="dol">DOL</option>
+            <option value="hel">HEL</option>
+            <option value="io">IO</option>
+            <option value="lum">LUM</option>
+            <option value="ko">KO</option>
+        </select>
+
+        <button id="clear">Clear fields</button>
+        <table id="myTable">
+            <tr>
+                <th style="font-weight: bold; font-size: 1.2em;">Item</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: red;">Blood - Ruby</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: rgb(235, 30, 235);">Caster - Amethyst</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: deepskyblue;">Hitpower - Saphire</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: lime;">Safety - Emerald</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: silver;">Vampiric - Skull</th>
+                <th style="font-weight: bold; font-size: 1.2em; color: gold;">Bountiful - Topaz</th>
+                <th style="font-weight: bold; font-size: 1.2em;">Item</th>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Amulet</td>
+                <td id="blamu"> AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="castamu">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitamu">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safeamu">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamamu">DOL <img class="rune" src="./images/RuneDol.png" alt="Dol Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="bouamu">KO <img class="rune" src="./images/RuneKo.png" alt="Ko Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Amulet</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Ring</td>
+                <td id="blring">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="casring">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitring">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safering">AMN <img class="rune" src="./images/RuneAmn.png" alt="Amn Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamring">HEL <img class="rune" src="./images/RuneHel.png" alt="Hel Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="bouring">LUM <img class="rune" src="./images/RuneLum.png" alt="Lum Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Ring</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Belt</td>
+                <td id="blbelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="casbelt">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitbelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safebelt">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vambelt">ELD <img class="rune" src="./images/RuneEld.png" alt="Eld Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="boubelt">EL <img class="rune" src="./images/RuneEl.png" alt="El Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Belt</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Gloves</td>
+                <td id="blglov">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="casglove">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitglove">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safeglov">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamglove">IO <img class="rune" src="./images/RuneIo.png" alt="Io Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="bouglov">HEL <img class="rune" src="./images/RuneHel.png" alt="Hel Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Gloves</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Boots</td>
+                <td id="blboot">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="casboot">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitboot">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safeboot">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamboot">EL <img class="rune" src="./images/RuneEl.png" alt="El Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="bouboot">IO <img class="rune" src="./images/RuneIo.png" alt="Io Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Boots</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Helm</td>
+                <td id="blhelm">RAL <img class="rune" src="./images/RuneRal.png" alt="Ral Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="cashelm">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hithelm">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safehelm">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamhelm">LUM <img class="rune" src="./images/RuneLum.png" alt="Lum Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="bouhelm">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Helm</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Chest</td>
+                <td id="blche">THUL <img class="rune" src="./images/RuneThul.png" alt="Thul Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="casches">TAL <img class="rune" src="./images/RuneTal.png" alt="Tal Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitches">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safeches">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamches">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="bouches">ELD <img class="rune" src="./images/RuneEld.png" alt="Eld Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Chest</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Shield</td>
+                <td id="blshie">ITH <img class="rune" src="./images/RuneIth.png" alt="Ith Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="casshie">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitshie">ETH <img class="rune" src="./images/RuneEth.png" alt="Eth Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safeshie">NEF <img class="rune" src="./images/RuneNef.png" alt="Nef Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamshie">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="boushie">DOL <img class="rune" src="./images/RuneDol.png" alt="DolRune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Shield</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Weapon</td>
+                <td id="blwep">ORT <img class="rune" src="./images/RuneOrt.png" alt="Ort Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="caswep">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="hitwep">TIR <img class="rune" src="./images/RuneTir.png" alt="Tir Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="safewep">SOL <img class="rune" src="./images/RuneSol.png" alt="Sol Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="vamwep">SHAEL <img class="rune" src="./images/RuneShael.png" alt="Shael Rune"
+                        style="width:28px;height:28px;"></td>
+                <td id="bouwep">SHAEL <img class="rune" src="./images/RuneShael.png" alt="Shael Rune"
+                        style="width:28px;height:28px;"></td>
+                <td style="font-weight: bold; font-size: 1.2em; color: rgb(23, 215, 215);">Weapon</td>
+            </tr>
+
+        </table>
+
+        <div id="cell-popup" class="hidden">
+            <!-- Hover card content will be dynamically added here -->
+        </div>
+    </div>
+    <h1 id="title">Craft Levels</h1>
+    <div class="buttons">
+        <button type="button" onclick="validateForm()">Submit</button>
+    </div>
+    <div id="formWrapper">
+        <form id="myForm">
+            <div class="grid-container parameters">
+                <!-- dropdowns part -->
+                <section class="grid-item">
+                    <h2>Item base selection:</h2>
+                    <div>
+                        <h3>Armors</h3>
+                        <div class="dropdown_container">
+                            <label for="pickItem">Pick Base:</label>
+                            <select class="dropdown_field" id="pickItem" name="pickItem">
+                                <option value="">Select Item</option>
+                                <option value="amulets">Amulet</option>
+                                <option value="rings">Ring</option>
+                                <option value="head">Helmets</option>
+                                <option value="circlet">Circlets</option>
+                                <option value="druid helm">Druid helms</option>
+                                <option value="barbarian helm">Barbarian helms</option>
+                                <option value="chest">Armors</option>
+                                <option value="gloves">Gloves</option>
+                                <option value="belt">Belts</option>
+                                <option value="boots">Boots</option>
+                                <option value="shield">Shields</option>
+                                <option value="paladin shield">Paladin shields</option>
+                                <option value="necromancer shield">Necromancer shields</option>
+                            </select>
+                        </div>
+                    </div><br>
+
+                    <div class="dropdown_container" id="pickBaseDiv">
+                        <label for="pickBase">Select Base:</label>
+                        <select class="dropdown_field" id="pickBase" name="pickBase">
+
+                        </select>
+                    </div><br>
+                    <h3>Weapons:</h3>
+                    <div class="dropdown_container" id="pickWepDiv">
+                        <label for="pickwep">Select Weapon:</label>
+                        <select class="dropdown_field" id="pickwep" name="pickwep">
+                            <option value="">Select Weapon</option>
+                            <option value="claws">Claws</option>
+                            <option value="wands">Wand</option>
+                            <option value="orbs">Orb</option>
+                            <option value="staves">Stave</option>
+                            <option value="polearms">Polearm</option>
+                            <option value="spears">Spear</option>
+                            <option value="javelins">Javelin</option>
+                            <option value="throw">Throw</option>
+                            <option value="daggers">Dagger</option>
+                            <option value="swords1">1H Sword</option>
+                            <option value="swords2">2H Sword</option>
+                            <option value="axes1">1H Axe</option>
+                            <option value="axes2">2H Axe</option>
+                            <option value="maces1">1H Blunts</option>
+                            <option value="maces2">2H Blunts</option>
+                            <option value="scepters">Scepter</option>
+                            <option value="bows">Bow</option>
+                            <option value="amazon weapons">Amazon</option>
+                            <option value="xbows">X-Bows</option>
+                        </select>
+                    </div><br>
+                    <div class="dropdown_container" id="pickBaseDivw">
+                        <label for="pickBasew">Select Weapon Base:</label>
+                        <select class="dropdown_field" id="pickBasew" name="pickBasew">
+                        </select>
+                    </div>
+
+                </section>
+                <!-- inputs part -->
+                <section class="grid-item">
+                    <h2>Autofilled by fields on the left:</h2>
+                    <div class="input_container">
+                        <label for="qlvl">QLVL: </label>
+                        <input class="input_field" type="text" name="qlvl" id="qlvl" value="0" readonly>
+                    </div>
+                    <h2>Drop option:</h2>
+                    <div class="input_container">
+                        <label for="ilvl">Dropped Base iLevel:</label>
+                        <input class="input_field" type="number" id="ilvl" name="ilvl" required>
+                    </div>
+                    <h2>Shop option:</h2>
+                    <div class="input_container">
+                        <label for="buyerLevel">Buyer Level:</label>
+                        <input class="input_field" type="number" id="bLevel" name="buyerLevel" required>
+                    </div>
+
+                    <div class="input_container">
+                        <label for="crafterLevel">Crafter Level:</label>
+                        <input class="input_field" type="number" id="cLevel" name="crafterLevel" required>
+                    </div>
+                </section>
+                <!-- text output -->
+                <section class="grid-item">
+                    <div id="outputDisplay" style="margin-top: 2px;">
+                        <h2>Output values:</h2>
+                        <p id="outputText"></p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="grid-container outputTables">
+                <!-- table output -->
+                <section class="grid-item tables">
+                    <div style="margin-top: 2px;">
+                        <h2>Prefix Pool Output:</h2>
+                        <div>
+                            <table class="affixTable" id="prefixTable">
+                                <thead>
+                                    <tr class="tableHead" id="header" style="color: rgb(96, 190, 159);">
+                                        <th>Name</th>
+                                        <th>Property</th>
+                                        <th onclick="sortTable(2, 'prefixTable')">minLvl <span
+                                                class="arrow">&#x2195;</span></th>
+                                        <th>maxLvl</th>
+                                        <th>rlvl</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tableBody" id="tab">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <section class="grid-item tables">
+                    <div style="margin-top: 2px;">
+                        <h2>Suffix Pool Output:</h2>
+                        <div>
+                            <table class="affixTable" id="suffixTable">
+                                <thead>
+                                    <tr class="tableHead" id="header2" style="color: rgb(96, 190, 159);">
+                                        <th>Name</th>
+                                        <th>Property</th>
+                                        <th onclick="sortTable(2, 'suffixTable')">minLvl <span
+                                                class="arrow">&#x2195;</span></th>
+                                        <th>maxLvl</th>
+                                        <th>rlvl</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tableBody" id="tab2">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </form>
+    </div>
+
+
+    <div class="grid-container explain">
+
+        <section class="grid-item">
+            <h2>Explanations and terms:</h2>
+            <p>Your aim might be to impose an upper limit on the <b style="color:aqua">crafted's</b> item aLvl, while
+                maintaining a decent iLvl for the resulting <b style="color:aqua">craft</b> (51 - desired at minimum or
+                71 - for
+                higher qlvls).</p>
+            <p>The base's iLvl (determined by the shopper's cLvl) and crafter's cLvl determine the crafted item's iLvl.
+                To stay
+                within bounds for iLvl = 51, if one value goes up, the other goes down</p>
+            <p></p>
+            <ol>
+                <li>
+                    <h4>Base iLvl:</h4>
+                    <ul>
+                        <li>Dropped: you already have the items and can see the iLvls on item stat shown by most
+                            lootfilters.
+                            <p>Otherwise:</p>
+                            <ul>
+                                <li>ilvl = mlvl (monster drops)</li>
+                                <li>ilvl = Alvl (chest drops) where A=area</li>
+                                <li>ilvl = Alvl - 1 (rack drops)</li>
+                                <li>mlvl = Alvl (regular monsters)</li>
+                                <li>mlvl = Alvl + 2 (champions, any kind)</li>
+                                <li>mlvl = Alvl + 3 (bosses and minions)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Shopped: you are planning to shop bases and craft with them. Apart from some "Normal"
+                            difficulty
+                            restriction on max iLvl from shops, the rule of thumb is: the shopped item <b
+                                style="color:aqua">iLvl = cLvl + 5</b>, where cLvl is the level of the character doing
+                            the shopping.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Base aLvl:</h4>
+                    <ul>
+                        <li>
+                            <p>
+                                Only relevant when using this here tool to determine which level is best to do your
+                                buying for certain magic items
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For example, +3 skilltree is a lvl 60 affix and Alacrity +20% Increased Attack Speed is
+                                lvl 43. if you are looking for 3/20 gloves, the earliest option would be to start buying
+                                leather and heavy gloves in act1 NM at lvl 58.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                To test, pick Gloves>leather gloves from base dropdowns and input 56 in the buyer level
+                                field. The result should show 60 in the shopped item affix level field.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Crafted item iLvl:</h4>
+                    <ul>
+                        <li>
+                            <p>Determines the chance of getting 4 random afixes; direct relation with crafter cLvl and
+                                base iLvl.</p>
+                        </li>
+                        <li>
+                            <p>If you need to increase it, increase either buyer (for base iLvl increase) or crafter
+                                cLvl (use a higher level character to buy or craft) or farm in high area levels (also
+                                for base iLvl increase)</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Crafted item aLvl, see some example combos bellow:</h4>
+                    <ul>
+                        <li>
+                            <p>For: high level affix and 71+ iLvl, base iLvl and crafter cLvl should be on the high side
+                                while qlvl on the low side (pick lower quality bases)</p>
+                        </li>
+                        <li>
+                            <p>
+                                Qlvls for each item type (i.e. armor, boots, etc.) start at around 1 at the lowest item
+                                and usually end at 85 (can't buy elites though, can
+                                only drop in high area levels).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For a complete list of qlvls and affixes visit <a
+                                    href="https://wiki.projectdiablo2.com/wiki/Item_Affixes" target="new">PD2 wiki affix
+                                    page</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>For: 71+ iLvl and 40+ aLvl, mid to high qlvl, high buyer, mid crafter</p>
+
+                        </li>
+                        <li>
+                            <p>For: 51+ iLvl and 40+ aLvl, low to mid qlvl, highish buyer, low crafter</p>
+
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section class="grid-item">
+            <h2>How to use</h2>
+            <ol>
+                <li>
+                    <h4>Craft with dropped items scenario:</h4>
+                    <ul>
+                        <li>
+                            <p>Pop in the iLvl shown on item stats, pick base type for qlvl input according to your
+                                dropped item
+                        </li>
+                        <li>
+                            <p>
+                                Adjust the crafter's level accordingly until you get on the Output panel the closest
+                                crafted iLvl
+                                and aLvl that satisfy your needs.
+                            </p>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <h4>Shop your base, then craft scenario:</h4>
+                    <ul>
+                        <li>
+                            <p>Pick the level of one of your high level characters for the buyer</p>
+                        </li>
+                        <li>
+                            <p>
+                                Depending on your requirements for aLvl (see above), either level a low-mid level as a
+                                crafter (in
+                                case you do not use the same character for
+                                both buying and crafting) or use same value as buyer.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Adjust base type until you get to the desired
+                                iLvl-aLvl combo.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                At the end of mixing these values around you should know where and what base to shop
+                                for, what level
+                                buyer and crafter for a certain affix level.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+    </div>
+
+    <script src="calc.js"></script>
+    <script src="search.js"></script>
+
+</body>
+
+</html>

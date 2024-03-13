@@ -65,6 +65,10 @@ label[for="runes"] {
     padding-left: 20px;
 }
 
+.title {
+    margin: 30px;
+}
+
 table,
 th,
 td {
@@ -304,3 +308,39 @@ a {
     transform: translateY(-50%);
     font-size: 12px;
 } */
+
+.top-menu {
+    background-color: rgb(96, 190, 159);
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.top-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-menu li {
+    margin: 0 10px;
+}
+
+.top-menu li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.top-menu li a:hover {
+    background-color: rgb(28, 31, 31);
+    color: rgb(96, 190, 159);
+}
