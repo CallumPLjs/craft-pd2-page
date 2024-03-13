@@ -135,7 +135,7 @@ function hideHoverCard() {
 async function getCellObject(cellId) {
   try {
     // Replace 'your_data.json' with the path to your JSON file
-    const response = await fetch('./../json/cells.json');
+    const response = await fetch('json/cells.json');
     const jsonData = await response.json();
     return jsonData[cellId];
   } catch (error) {
