@@ -179,19 +179,21 @@ pickwep.addEventListener("change", function () {
   fillSecondDropdown2(this.value);
 });
 
-function fillPreffixTable() {
+
+
+function fillAfixTables(id, tag) {
     fetch('json/affix.json')
     .then(response => response.json())
     .then(data => {
         
         // console.log(data.prefixes);
-        let prefixTableBody = document.getElementById("tab");
-        prefixTableBody.innerHTML = "";
+        let afixTableBody = document.getElementById(id);
+        afixTableBody.innerHTML = "";
         let counter = 0;
         // Find the corresponding data in the JSON
         // const selectedData = data[selectionParams.type];
         // Loop through the selected data and fill the options
-        data.prefixes.forEach(item => {
+        data[tag].forEach(item => {
             // Check if the selected type matches the item type
             console.log(selectionParams.color);
             const isMatch = item.items && 
@@ -204,7 +206,7 @@ function fillPreffixTable() {
                             // selectionParams.color === item.color;
             if (isMatch) {
                 // If they match, insert a new row in the table
-                let row = prefixTableBody.insertRow(counter);
+                let row = afixTableBody.insertRow(counter);
                 let nameCell = row.insertCell(0);
                 let propertyCell = row.insertCell(1);
                 let minLvlCell = row.insertCell(2);
@@ -225,51 +227,6 @@ function fillPreffixTable() {
     .catch(error => console.error('Error fetching data:', error));
 }
 
-function fillSuffixTable() {
-    fetch('json/affix.json')
-    .then(response => response.json())
-    .then(data => {
-        
-        // console.log(data.prefixes);
-        let suffixTableBody = document.getElementById("tab2");
-        suffixTableBody.innerHTML = "";
-        let counter = 0;
-        // Find the corresponding data in the JSON
-        // const selectedData = data[selectionParams.type];
-        // Loop through the selected data and fill the options
-        data.suffixes.forEach(item => {
-            // Check if the selected type matches the item type
-            console.log(selectionParams.color);
-            const isMatch = item.items && 
-                            item.items.some(item => item.type === selectionParams.type && item.class === selectionParams.class) &&
-                            selectionParams.alvl >= item.min_lvl &&
-                            selectionParams.alvl <= item.max_lvl &&
-                            (
-                                selectionParams.color === "blue" ||  selectionParams.color === item.color
-                            );
-                            // selectionParams.color === item.color;
-            if (isMatch) {
-                // If they match, insert a new row in the table
-                let row = suffixTableBody.insertRow(counter);
-                let nameCell = row.insertCell(0);
-                let propertyCell = row.insertCell(1);
-                let minLvlCell = row.insertCell(2);
-                let maxLvlCell = row.insertCell(3);
-                let rLvlCell = row.insertCell(4);
-
-                // Fill the cells with item data
-                nameCell.innerHTML = item.name;
-                propertyCell.innerHTML = item.property;
-                minLvlCell.innerHTML = item.min_lvl;
-                maxLvlCell.innerHTML = item.max_lvl;
-                rLvlCell.innerHTML = item.rlvl;
-                counter++;
-            }
-            
-        });
-    })
-    .catch(error => console.error('Error fetching data:', error));
-}
 
 function validateForm() {
     let buyer_cLvl = parseFloat(document.getElementById("bLevel").value); 
@@ -308,8 +265,10 @@ function validateForm() {
     // console.log(selectionParams.alvl);
 
     displayOutput(buyer_cLvl, crafter_cLvl,spawned_iLvl, crafted_iLvl, shoppedItemAfixLevel, craftedItemAfixLevel);
-    fillPreffixTable();
-    fillSuffixTable();
+    // fillPreffixTable();
+    // fillSuffixTable();
+    fillAfixTables("tab", 'prefixes');
+    fillAfixTables("tab2", 'suffixes');
 }
 
 var currentSortColumn = -1;
@@ -446,5 +405,97 @@ var jsonObject = {
   "key3": ["apple", "orange", "banana"]
 };*/
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+// retired functions
 
+function fillPreffixTable() {
+    fetch('json/affix.json')
+    .then(response => response.json())
+    .then(data => {
+        
+        // console.log(data.prefixes);
+        let prefixTableBody = document.getElementById("tab");
+        prefixTableBody.innerHTML = "";
+        let counter = 0;
+        // Find the corresponding data in the JSON
+        // const selectedData = data[selectionParams.type];
+        // Loop through the selected data and fill the options
+        data.prefixes.forEach(item => {
+            // Check if the selected type matches the item type
+            console.log(selectionParams.color);
+            const isMatch = item.items && 
+                            item.items.some(item => item.type === selectionParams.type && item.class === selectionParams.class) &&
+                            selectionParams.alvl >= item.min_lvl &&
+                            selectionParams.alvl <= item.max_lvl &&
+                            (
+                                selectionParams.color === "blue" ||  selectionParams.color === item.color
+                            );
+                            // selectionParams.color === item.color;
+            if (isMatch) {
+                // If they match, insert a new row in the table
+                let row = prefixTableBody.insertRow(counter);
+                let nameCell = row.insertCell(0);
+                let propertyCell = row.insertCell(1);
+                let minLvlCell = row.insertCell(2);
+                let maxLvlCell = row.insertCell(3);
+                let rLvlCell = row.insertCell(4);
 
+                // Fill the cells with item data
+                nameCell.innerHTML = item.name;
+                propertyCell.innerHTML = item.property;
+                minLvlCell.innerHTML = item.min_lvl;
+                maxLvlCell.innerHTML = item.max_lvl;
+                rLvlCell.innerHTML = item.rlvl;
+                counter++;
+            }
+            
+        });
+    })
+    .catch(error => console.error('Error fetching data:', error));
+}
+
+function fillSuffixTable() {
+    fetch('json/affix.json')
+    .then(response => response.json())
+    .then(data => {
+        
+        // console.log(data.prefixes);
+        let suffixTableBody = document.getElementById("tab2");
+        suffixTableBody.innerHTML = "";
+        let counter = 0;
+        // Find the corresponding data in the JSON
+        // const selectedData = data[selectionParams.type];
+        // Loop through the selected data and fill the options
+        data.suffixes.forEach(item => {
+            // Check if the selected type matches the item type
+            console.log(selectionParams.color);
+            const isMatch = item.items && 
+                            item.items.some(item => item.type === selectionParams.type && item.class === selectionParams.class) &&
+                            selectionParams.alvl >= item.min_lvl &&
+                            selectionParams.alvl <= item.max_lvl &&
+                            (
+                                selectionParams.color === "blue" ||  selectionParams.color === item.color
+                            );
+                            // selectionParams.color === item.color;
+            if (isMatch) {
+                // If they match, insert a new row in the table
+                let row = suffixTableBody.insertRow(counter);
+                let nameCell = row.insertCell(0);
+                let propertyCell = row.insertCell(1);
+                let minLvlCell = row.insertCell(2);
+                let maxLvlCell = row.insertCell(3);
+                let rLvlCell = row.insertCell(4);
+
+                // Fill the cells with item data
+                nameCell.innerHTML = item.name;
+                propertyCell.innerHTML = item.property;
+                minLvlCell.innerHTML = item.min_lvl;
+                maxLvlCell.innerHTML = item.max_lvl;
+                rLvlCell.innerHTML = item.rlvl;
+                counter++;
+            }
+            
+        });
+    })
+    .catch(error => console.error('Error fetching data:', error));
+}
